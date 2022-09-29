@@ -1,0 +1,883 @@
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] client_type not set, use default: brpc
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] channel_size not set, use default: 0
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] channel_recv_frist_arrive not set, use default: False
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] timeout not set, use default: -1
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] retry not set, use default: 1
+WARNING 2022-08-19 16:52:23,979 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-19 16:52:23,980 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-19 16:52:23,981 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-19 16:52:23,981 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-19 16:52:23,981 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-19 16:52:23,981 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-19 16:52:23,981 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+INFO 2022-08-19 16:52:23,981 [operator.py:209] local_service_conf: {'client_type': 'local_predictor', 'model_config': './ppocr_det_v3_serving', 'devices': '0', 'ir_optim': True, 'workdir': '', 'thread_num': 2, 'device_type': -1, 'mem_optim': True, 'precision': 'fp32', 'use_calib': False, 'use_mkldnn': False, 'mkldnn_cache_capacity': 0, 'min_subgraph_size': 3}
+INFO 2022-08-19 16:52:23,981 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:23,981 [operator.py:309] det 
+	input_ops: @DAGExecutor,
+	server_endpoints: None
+	fetch_list: None
+	client_config: ./ppocr_det_v3_serving/serving_server_conf.prototxt
+	concurrency: 8,
+	timeout(s): -1,
+	retry: 1,
+	batch_size: 1,
+	auto_batching_timeout(s): None
+INFO 2022-08-19 16:52:23,981 [operator.py:209] local_service_conf: {'client_type': 'local_predictor', 'model_config': './ppocr_rec_v3_serving', 'devices': '0', 'ir_optim': True, 'workdir': '', 'thread_num': 2, 'device_type': -1, 'mem_optim': True, 'precision': 'fp32', 'use_calib': False, 'use_mkldnn': False, 'mkldnn_cache_capacity': 0, 'min_subgraph_size': 3}
+INFO 2022-08-19 16:52:23,981 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:23,982 [operator.py:309] rec 
+	input_ops: det,
+	server_endpoints: None
+	fetch_list: None
+	client_config: ./ppocr_rec_v3_serving/serving_server_conf.prototxt
+	concurrency: 4,
+	timeout(s): -1,
+	retry: 1,
+	batch_size: 1,
+	auto_batching_timeout(s): None
+INFO 2022-08-19 16:52:23,982 [pipeline_server.py:223] ============= PIPELINE SERVER =============
+INFO 2022-08-19 16:52:23,982 [pipeline_server.py:224] 
+{
+    "rpc_port":18091,
+    "http_port":9998,
+    "worker_num":10,
+    "build_dag_each_worker":false,
+    "dag":{
+        "is_thread_op":false,
+        "retry":10,
+        "use_profile":true,
+        "tracer":{
+            "interval_s":10
+        },
+        "client_type":"brpc",
+        "channel_size":0,
+        "channel_recv_frist_arrive":false
+    },
+    "op":{
+        "det":{
+            "concurrency":8,
+            "local_service_conf":{
+                "client_type":"local_predictor",
+                "model_config":"./ppocr_det_v3_serving",
+                "devices":"0",
+                "ir_optim":true,
+                "workdir":"",
+                "thread_num":2,
+                "device_type":-1,
+                "mem_optim":true,
+                "precision":"fp32",
+                "use_calib":false,
+                "use_mkldnn":false,
+                "mkldnn_cache_capacity":0,
+                "min_subgraph_size":3
+            },
+            "timeout":-1,
+            "retry":1,
+            "batch_size":1,
+            "auto_batching_timeout":-1
+        },
+        "rec":{
+            "concurrency":4,
+            "timeout":-1,
+            "retry":1,
+            "local_service_conf":{
+                "client_type":"local_predictor",
+                "model_config":"./ppocr_rec_v3_serving",
+                "devices":"0",
+                "ir_optim":true,
+                "workdir":"",
+                "thread_num":2,
+                "device_type":-1,
+                "mem_optim":true,
+                "precision":"fp32",
+                "use_calib":false,
+                "use_mkldnn":false,
+                "mkldnn_cache_capacity":0,
+                "min_subgraph_size":3
+            },
+            "batch_size":1,
+            "auto_batching_timeout":-1
+        }
+    }
+}
+INFO 2022-08-19 16:52:23,982 [pipeline_server.py:231] -------------------------------------------
+INFO 2022-08-19 16:52:23,982 [operator.py:345] Op(det) use local rpc service at port: []
+INFO 2022-08-19 16:52:23,982 [operator.py:345] Op(rec) use local rpc service at port: []
+INFO 2022-08-19 16:52:23,991 [dag.py:495] @DAGExecutor, <paddle_serving_server.pipeline.operator.ResponseOp object at 0x7f4d48ad8670>, True, None, False, 0 ,False ,<paddle_serving_server.pipeline.profiler.PerformanceTracer object at 0x7f4d48ad88b0> ,False
+INFO 2022-08-19 16:52:23,996 [dag.py:525] [DAG] Succ init
+INFO 2022-08-19 16:52:23,997 [dag.py:688] ================= USED OP =================
+INFO 2022-08-19 16:52:23,997 [dag.py:691] det
+INFO 2022-08-19 16:52:23,997 [dag.py:691] rec
+INFO 2022-08-19 16:52:23,997 [dag.py:692] -------------------------------------------
+INFO 2022-08-19 16:52:23,997 [dag.py:709] ================== DAG ====================
+INFO 2022-08-19 16:52:23,997 [dag.py:711] (VIEW 0)
+INFO 2022-08-19 16:52:23,997 [dag.py:713]   [@DAGExecutor]
+INFO 2022-08-19 16:52:23,997 [dag.py:715]     - det
+INFO 2022-08-19 16:52:23,997 [dag.py:711] (VIEW 1)
+INFO 2022-08-19 16:52:23,997 [dag.py:713]   [det]
+INFO 2022-08-19 16:52:23,997 [dag.py:715]     - rec
+INFO 2022-08-19 16:52:23,997 [dag.py:711] (VIEW 2)
+INFO 2022-08-19 16:52:23,997 [dag.py:713]   [rec]
+INFO 2022-08-19 16:52:23,997 [dag.py:716] -------------------------------------------
+INFO 2022-08-19 16:52:24,007 [dag.py:759] op:det add input channel.
+INFO 2022-08-19 16:52:24,015 [dag.py:759] op:rec add input channel.
+INFO 2022-08-19 16:52:24,015 [dag.py:767] pred_op:det add output channel
+INFO 2022-08-19 16:52:24,022 [dag.py:788] last op:rec add output channel
+INFO 2022-08-19 16:52:24,022 [dag.py:829] [DAG] Succ build DAG
+INFO 2022-08-19 16:52:24,059 [dag.py:912] [DAG] start
+INFO 2022-08-19 16:52:24,059 [dag.py:192] [DAG] set in channel succ, name [@DAGExecutor]
+INFO 2022-08-19 16:52:24,062 [pipeline_server.py:59] [PipelineServicer] succ init
+INFO 2022-08-19 16:52:24,070 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,071 [operator.py:1360] Init cuda env in process 0
+INFO 2022-08-19 16:52:24,071 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,095 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,095 [operator.py:1360] Init cuda env in process 1
+INFO 2022-08-19 16:52:24,095 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,109 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,109 [operator.py:1360] Init cuda env in process 2
+INFO 2022-08-19 16:52:24,109 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,112 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,113 [operator.py:1360] Init cuda env in process 3
+INFO 2022-08-19 16:52:24,113 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,156 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,157 [operator.py:1360] Init cuda env in process 4
+INFO 2022-08-19 16:52:24,157 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,175 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,175 [operator.py:1360] Init cuda env in process 5
+INFO 2022-08-19 16:52:24,175 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,191 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,191 [operator.py:1360] Init cuda env in process 6
+INFO 2022-08-19 16:52:24,192 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,224 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,224 [operator.py:1360] Init cuda env in process 7
+INFO 2022-08-19 16:52:24,224 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,235 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,235 [operator.py:1360] Init cuda env in process 0
+INFO 2022-08-19 16:52:24,236 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,283 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,284 [operator.py:1360] Init cuda env in process 1
+INFO 2022-08-19 16:52:24,284 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,294 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,295 [operator.py:1360] Init cuda env in process 2
+INFO 2022-08-19 16:52:24,295 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:24,306 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-19 16:52:24,306 [operator.py:1360] Init cuda env in process 3
+INFO 2022-08-19 16:52:24,306 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-19 16:52:25,734 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:25,735 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:25,811 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:25,827 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:25,856 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:25,867 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,011 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,011 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,136 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,137 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,167 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,168 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,179 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,180 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,191 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,192 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,240 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,240 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,240 [operator.py:1381] [det|0] Succ init
+INFO 2022-08-19 16:52:26,368 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,368 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,396 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,396 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,468 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,468 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,588 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,588 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,588 [operator.py:1381] [det|3] Succ init
+INFO 2022-08-19 16:52:26,592 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,593 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,593 [operator.py:1381] [det|1] Succ init
+INFO 2022-08-19 16:52:26,623 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,623 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-19 16:52:26,641 [operator.py:1381] [rec|1] Succ init
+INFO 2022-08-19 16:52:26,653 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,654 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-19 16:52:26,665 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,665 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-19 16:52:26,672 [operator.py:1381] [rec|3] Succ init
+INFO 2022-08-19 16:52:26,683 [operator.py:1381] [rec|0] Succ init
+INFO 2022-08-19 16:52:26,713 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,713 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,713 [operator.py:1381] [det|4] Succ init
+INFO 2022-08-19 16:52:26,745 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,745 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,745 [operator.py:1381] [det|2] Succ init
+INFO 2022-08-19 16:52:26,782 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-19 16:52:26,783 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-19 16:52:26,840 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,840 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,840 [operator.py:1381] [det|6] Succ init
+INFO 2022-08-19 16:52:26,855 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,855 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,855 [operator.py:1381] [det|5] Succ init
+INFO 2022-08-19 16:52:26,870 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,870 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-19 16:52:26,870 [operator.py:1381] [det|7] Succ init
+INFO 2022-08-19 16:52:26,964 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-19 16:52:26,965 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-19 16:52:26,976 [operator.py:1381] [rec|2] Succ init
+INFO 2022-08-19 16:53:04,011 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902784.0111606
+INFO 2022-08-19 16:53:04,011 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902784.0115662
+INFO 2022-08-19 16:53:04,011 [dag.py:378] (data_id=0 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:04,544 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:06,251 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:06,258 [dag.py:414] (data_id=0 log_id=0) Succ predict
+INFO 2022-08-19 16:53:06,264 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902786.2640522
+INFO 2022-08-19 16:53:06,264 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902786.2642345
+INFO 2022-08-19 16:53:06,264 [dag.py:378] (data_id=1 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:06,780 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:07,153 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:07,156 [dag.py:414] (data_id=1 log_id=0) Succ predict
+INFO 2022-08-19 16:53:07,164 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902787.1639888
+INFO 2022-08-19 16:53:07,164 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902787.164174
+INFO 2022-08-19 16:53:07,164 [dag.py:378] (data_id=2 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:07,667 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:09,899 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:09,907 [dag.py:414] (data_id=2 log_id=0) Succ predict
+INFO 2022-08-19 16:53:09,924 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902789.92401
+INFO 2022-08-19 16:53:09,924 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902789.9242253
+INFO 2022-08-19 16:53:09,924 [dag.py:378] (data_id=3 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:10,391 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:10,653 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:10,656 [dag.py:414] (data_id=3 log_id=0) Succ predict
+INFO 2022-08-19 16:53:10,663 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902790.6630504
+INFO 2022-08-19 16:53:10,663 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902790.6632562
+INFO 2022-08-19 16:53:10,663 [dag.py:378] (data_id=4 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:11,247 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:27,510 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:27,559 [dag.py:414] (data_id=4 log_id=0) Succ predict
+INFO 2022-08-19 16:53:27,570 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902807.570013
+INFO 2022-08-19 16:53:27,570 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902807.5702353
+INFO 2022-08-19 16:53:27,570 [dag.py:378] (data_id=5 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:28,025 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:31,300 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:31,313 [dag.py:414] (data_id=5 log_id=0) Succ predict
+INFO 2022-08-19 16:53:31,318 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902811.3187733
+INFO 2022-08-19 16:53:31,318 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902811.3189602
+INFO 2022-08-19 16:53:31,319 [dag.py:378] (data_id=6 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:31,928 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:32,647 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:32,651 [dag.py:414] (data_id=6 log_id=0) Succ predict
+INFO 2022-08-19 16:53:32,656 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902812.6566455
+INFO 2022-08-19 16:53:32,656 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902812.6568239
+INFO 2022-08-19 16:53:32,656 [dag.py:378] (data_id=7 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:33,180 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:36,433 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:36,443 [dag.py:414] (data_id=7 log_id=0) Succ predict
+INFO 2022-08-19 16:53:36,451 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902816.4511557
+INFO 2022-08-19 16:53:36,451 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902816.4514127
+INFO 2022-08-19 16:53:36,451 [dag.py:378] (data_id=8 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:36,902 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:40,481 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:40,494 [dag.py:414] (data_id=8 log_id=0) Succ predict
+INFO 2022-08-19 16:53:40,502 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902820.5021873
+INFO 2022-08-19 16:53:40,502 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902820.502412
+INFO 2022-08-19 16:53:40,502 [dag.py:378] (data_id=9 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:40,966 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:46,039 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:46,057 [dag.py:414] (data_id=9 log_id=0) Succ predict
+INFO 2022-08-19 16:53:46,068 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902826.068206
+INFO 2022-08-19 16:53:46,068 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902826.0684297
+INFO 2022-08-19 16:53:46,068 [dag.py:378] (data_id=10 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:46,531 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:47,309 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:47,314 [dag.py:414] (data_id=10 log_id=0) Succ predict
+INFO 2022-08-19 16:53:47,319 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902827.3191273
+INFO 2022-08-19 16:53:47,319 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902827.3193588
+INFO 2022-08-19 16:53:47,319 [dag.py:378] (data_id=11 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:47,753 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:48,026 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:48,029 [dag.py:414] (data_id=11 log_id=0) Succ predict
+INFO 2022-08-19 16:53:48,034 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902828.034885
+INFO 2022-08-19 16:53:48,035 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902828.0350823
+INFO 2022-08-19 16:53:48,035 [dag.py:378] (data_id=12 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:48,395 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:52,303 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:52,317 [dag.py:414] (data_id=12 log_id=0) Succ predict
+INFO 2022-08-19 16:53:52,324 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902832.3246748
+INFO 2022-08-19 16:53:52,324 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902832.3248754
+INFO 2022-08-19 16:53:52,325 [dag.py:378] (data_id=13 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:52,748 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:53,381 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:53,384 [dag.py:414] (data_id=13 log_id=0) Succ predict
+INFO 2022-08-19 16:53:53,396 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902833.3961174
+INFO 2022-08-19 16:53:53,396 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902833.396371
+INFO 2022-08-19 16:53:53,396 [dag.py:378] (data_id=14 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:53,830 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:58,605 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:53:58,619 [dag.py:414] (data_id=14 log_id=0) Succ predict
+INFO 2022-08-19 16:53:58,625 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902838.6258125
+INFO 2022-08-19 16:53:58,626 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902838.6260068
+INFO 2022-08-19 16:53:58,626 [dag.py:378] (data_id=15 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:53:59,273 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:01,817 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:01,825 [dag.py:414] (data_id=15 log_id=0) Succ predict
+INFO 2022-08-19 16:54:01,846 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902841.846865
+INFO 2022-08-19 16:54:01,847 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902841.8470805
+INFO 2022-08-19 16:54:01,847 [dag.py:378] (data_id=16 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:54:02,230 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:02,655 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:02,657 [dag.py:414] (data_id=16 log_id=0) Succ predict
+INFO 2022-08-19 16:54:02,662 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902842.662555
+INFO 2022-08-19 16:54:02,662 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902842.6627474
+INFO 2022-08-19 16:54:02,662 [dag.py:378] (data_id=17 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:54:03,252 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:04,269 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:04,274 [dag.py:414] (data_id=17 log_id=0) Succ predict
+INFO 2022-08-19 16:54:04,281 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902844.2811773
+INFO 2022-08-19 16:54:04,281 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902844.281386
+INFO 2022-08-19 16:54:04,281 [dag.py:378] (data_id=18 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:54:04,356 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:05,384 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:05,389 [dag.py:414] (data_id=18 log_id=0) Succ predict
+INFO 2022-08-19 16:54:05,392 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902845.3929267
+INFO 2022-08-19 16:54:05,393 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902845.3930933
+INFO 2022-08-19 16:54:05,393 [dag.py:378] (data_id=19 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:54:05,753 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:05,895 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:54:05,898 [dag.py:414] (data_id=19 log_id=0) Succ predict
+INFO 2022-08-19 16:56:02,991 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902962.9910767
+INFO 2022-08-19 16:56:02,991 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902962.9913206
+INFO 2022-08-19 16:56:02,991 [dag.py:378] (data_id=20 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:03,591 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:03,656 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:03,658 [dag.py:414] (data_id=20 log_id=0) Succ predict
+INFO 2022-08-19 16:56:03,661 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902963.6610026
+INFO 2022-08-19 16:56:03,661 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902963.6611588
+INFO 2022-08-19 16:56:03,661 [dag.py:378] (data_id=21 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:03,868 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:03,931 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:03,933 [dag.py:414] (data_id=21 log_id=0) Succ predict
+INFO 2022-08-19 16:56:03,936 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902963.9364293
+INFO 2022-08-19 16:56:03,936 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902963.9366243
+INFO 2022-08-19 16:56:03,936 [dag.py:378] (data_id=22 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:04,150 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:04,216 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:04,218 [dag.py:414] (data_id=22 log_id=0) Succ predict
+INFO 2022-08-19 16:56:04,221 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902964.2218072
+INFO 2022-08-19 16:56:04,221 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902964.2219646
+INFO 2022-08-19 16:56:04,222 [dag.py:378] (data_id=23 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:04,830 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:04,834 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:04,836 [dag.py:414] (data_id=23 log_id=0) Succ predict
+INFO 2022-08-19 16:56:04,842 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902964.8424509
+INFO 2022-08-19 16:56:04,842 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902964.8426316
+INFO 2022-08-19 16:56:04,842 [dag.py:378] (data_id=24 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:05,120 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,184 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,186 [dag.py:414] (data_id=24 log_id=0) Succ predict
+INFO 2022-08-19 16:56:05,189 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902965.1897027
+INFO 2022-08-19 16:56:05,189 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902965.1898556
+INFO 2022-08-19 16:56:05,189 [dag.py:378] (data_id=25 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:05,404 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,468 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,470 [dag.py:414] (data_id=25 log_id=0) Succ predict
+INFO 2022-08-19 16:56:05,473 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902965.473296
+INFO 2022-08-19 16:56:05,473 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902965.4734743
+INFO 2022-08-19 16:56:05,473 [dag.py:378] (data_id=26 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:05,751 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,868 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:05,870 [dag.py:414] (data_id=26 log_id=0) Succ predict
+INFO 2022-08-19 16:56:05,873 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902965.8738472
+INFO 2022-08-19 16:56:05,874 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902965.8740077
+INFO 2022-08-19 16:56:05,874 [dag.py:378] (data_id=27 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:06,282 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:06,349 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:06,351 [dag.py:414] (data_id=27 log_id=0) Succ predict
+INFO 2022-08-19 16:56:06,354 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902966.35462
+INFO 2022-08-19 16:56:06,354 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902966.3547883
+INFO 2022-08-19 16:56:06,354 [dag.py:378] (data_id=28 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:06,866 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:06,928 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:06,930 [dag.py:414] (data_id=28 log_id=0) Succ predict
+INFO 2022-08-19 16:56:06,933 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660902966.9331875
+INFO 2022-08-19 16:56:06,933 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660902966.9333365
+INFO 2022-08-19 16:56:06,933 [dag.py:378] (data_id=29 log_id=0) Succ Generate ID 
+INFO 2022-08-19 16:56:07,298 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:07,363 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 16:56:07,365 [dag.py:414] (data_id=29 log_id=0) Succ predict
+INFO 2022-08-19 17:02:46,784 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660903366.7845495
+INFO 2022-08-19 17:02:46,784 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660903366.784765
+INFO 2022-08-19 17:02:46,784 [dag.py:378] (data_id=30 log_id=0) Succ Generate ID 
+INFO 2022-08-19 17:02:47,211 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:47,337 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:47,339 [dag.py:414] (data_id=30 log_id=0) Succ predict
+INFO 2022-08-19 17:02:47,346 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660903367.3468714
+INFO 2022-08-19 17:02:47,347 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660903367.3470666
+INFO 2022-08-19 17:02:47,347 [dag.py:378] (data_id=31 log_id=0) Succ Generate ID 
+INFO 2022-08-19 17:02:47,755 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:47,876 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:47,879 [dag.py:414] (data_id=31 log_id=0) Succ predict
+INFO 2022-08-19 17:02:47,885 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660903367.8852284
+INFO 2022-08-19 17:02:47,885 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660903367.885475
+INFO 2022-08-19 17:02:47,885 [dag.py:378] (data_id=32 log_id=0) Succ Generate ID 
+INFO 2022-08-19 17:02:48,313 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:48,433 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:48,434 [dag.py:414] (data_id=32 log_id=0) Succ predict
+INFO 2022-08-19 17:02:48,442 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1660903368.442719
+INFO 2022-08-19 17:02:48,442 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1660903368.4429202
+INFO 2022-08-19 17:02:48,443 [dag.py:378] (data_id=33 log_id=0) Succ Generate ID 
+INFO 2022-08-19 17:02:48,866 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:48,993 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-19 17:02:48,995 [dag.py:414] (data_id=33 log_id=0) Succ predict
+WARNING 2022-08-24 11:14:59,159 [pipeline_server.py:519] [CONF] client_type not set, use default: brpc
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] channel_size not set, use default: 0
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] channel_recv_frist_arrive not set, use default: False
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] timeout not set, use default: -1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] retry not set, use default: 1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:14:59,160 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:14:59,161 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:14:59,161 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:14:59,161 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:14:59,161 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:14:59,161 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:39:55,756 [pipeline_server.py:519] [CONF] client_type not set, use default: brpc
+WARNING 2022-08-24 11:39:55,756 [pipeline_server.py:519] [CONF] channel_size not set, use default: 0
+WARNING 2022-08-24 11:39:55,756 [pipeline_server.py:519] [CONF] channel_recv_frist_arrive not set, use default: False
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] timeout not set, use default: -1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] retry not set, use default: 1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:39:55,757 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:39:55,758 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:39:55,758 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:39:55,758 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:39:55,758 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:41:58,684 [pipeline_server.py:519] [CONF] client_type not set, use default: brpc
+WARNING 2022-08-24 11:41:58,684 [pipeline_server.py:519] [CONF] channel_size not set, use default: 0
+WARNING 2022-08-24 11:41:58,684 [pipeline_server.py:519] [CONF] channel_recv_frist_arrive not set, use default: False
+WARNING 2022-08-24 11:41:58,684 [pipeline_server.py:519] [CONF] timeout not set, use default: -1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] retry not set, use default: 1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:41:58,685 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:41:58,686 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+INFO 2022-08-24 11:41:58,686 [operator.py:209] local_service_conf: {'client_type': 'local_predictor', 'model_config': './ppocr_det_v3_serving', 'devices': '0', 'ir_optim': True, 'workdir': '', 'thread_num': 2, 'device_type': -1, 'mem_optim': True, 'precision': 'fp32', 'use_calib': False, 'use_mkldnn': False, 'mkldnn_cache_capacity': 0, 'min_subgraph_size': 3}
+INFO 2022-08-24 11:41:58,686 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,686 [operator.py:309] det 
+	input_ops: @DAGExecutor,
+	server_endpoints: None
+	fetch_list: None
+	client_config: ./ppocr_det_v3_serving/serving_server_conf.prototxt
+	concurrency: 8,
+	timeout(s): -1,
+	retry: 1,
+	batch_size: 1,
+	auto_batching_timeout(s): None
+INFO 2022-08-24 11:41:58,686 [operator.py:209] local_service_conf: {'client_type': 'local_predictor', 'model_config': './ppocr_rec_v3_serving', 'devices': '0', 'ir_optim': True, 'workdir': '', 'thread_num': 2, 'device_type': -1, 'mem_optim': True, 'precision': 'fp32', 'use_calib': False, 'use_mkldnn': False, 'mkldnn_cache_capacity': 0, 'min_subgraph_size': 3}
+INFO 2022-08-24 11:41:58,686 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,686 [operator.py:309] rec 
+	input_ops: det,
+	server_endpoints: None
+	fetch_list: None
+	client_config: ./ppocr_rec_v3_serving/serving_server_conf.prototxt
+	concurrency: 4,
+	timeout(s): -1,
+	retry: 1,
+	batch_size: 1,
+	auto_batching_timeout(s): None
+INFO 2022-08-24 11:41:58,686 [pipeline_server.py:223] ============= PIPELINE SERVER =============
+INFO 2022-08-24 11:41:58,687 [pipeline_server.py:224] 
+{
+    "rpc_port":18091,
+    "http_port":9998,
+    "worker_num":10,
+    "build_dag_each_worker":false,
+    "dag":{
+        "is_thread_op":false,
+        "retry":10,
+        "use_profile":true,
+        "tracer":{
+            "interval_s":10
+        },
+        "client_type":"brpc",
+        "channel_size":0,
+        "channel_recv_frist_arrive":false
+    },
+    "op":{
+        "det":{
+            "concurrency":8,
+            "local_service_conf":{
+                "client_type":"local_predictor",
+                "model_config":"./ppocr_det_v3_serving",
+                "devices":"0",
+                "ir_optim":true,
+                "workdir":"",
+                "thread_num":2,
+                "device_type":-1,
+                "mem_optim":true,
+                "precision":"fp32",
+                "use_calib":false,
+                "use_mkldnn":false,
+                "mkldnn_cache_capacity":0,
+                "min_subgraph_size":3
+            },
+            "timeout":-1,
+            "retry":1,
+            "batch_size":1,
+            "auto_batching_timeout":-1
+        },
+        "rec":{
+            "concurrency":4,
+            "timeout":-1,
+            "retry":1,
+            "local_service_conf":{
+                "client_type":"local_predictor",
+                "model_config":"./ppocr_rec_v3_serving",
+                "devices":"0",
+                "ir_optim":true,
+                "workdir":"",
+                "thread_num":2,
+                "device_type":-1,
+                "mem_optim":true,
+                "precision":"fp32",
+                "use_calib":false,
+                "use_mkldnn":false,
+                "mkldnn_cache_capacity":0,
+                "min_subgraph_size":3
+            },
+            "batch_size":1,
+            "auto_batching_timeout":-1
+        }
+    }
+}
+INFO 2022-08-24 11:41:58,687 [pipeline_server.py:231] -------------------------------------------
+INFO 2022-08-24 11:41:58,687 [operator.py:345] Op(det) use local rpc service at port: []
+INFO 2022-08-24 11:41:58,687 [operator.py:345] Op(rec) use local rpc service at port: []
+INFO 2022-08-24 11:41:58,695 [dag.py:495] @DAGExecutor, <paddle_serving_server.pipeline.operator.ResponseOp object at 0x7f4e674046a0>, True, None, False, 0 ,False ,<paddle_serving_server.pipeline.profiler.PerformanceTracer object at 0x7f4e674047c0> ,False
+INFO 2022-08-24 11:41:58,701 [dag.py:525] [DAG] Succ init
+INFO 2022-08-24 11:41:58,701 [dag.py:688] ================= USED OP =================
+INFO 2022-08-24 11:41:58,701 [dag.py:691] det
+INFO 2022-08-24 11:41:58,701 [dag.py:691] rec
+INFO 2022-08-24 11:41:58,701 [dag.py:692] -------------------------------------------
+INFO 2022-08-24 11:41:58,701 [dag.py:709] ================== DAG ====================
+INFO 2022-08-24 11:41:58,701 [dag.py:711] (VIEW 0)
+INFO 2022-08-24 11:41:58,701 [dag.py:713]   [@DAGExecutor]
+INFO 2022-08-24 11:41:58,702 [dag.py:715]     - det
+INFO 2022-08-24 11:41:58,702 [dag.py:711] (VIEW 1)
+INFO 2022-08-24 11:41:58,702 [dag.py:713]   [det]
+INFO 2022-08-24 11:41:58,702 [dag.py:715]     - rec
+INFO 2022-08-24 11:41:58,702 [dag.py:711] (VIEW 2)
+INFO 2022-08-24 11:41:58,702 [dag.py:713]   [rec]
+INFO 2022-08-24 11:41:58,702 [dag.py:716] -------------------------------------------
+INFO 2022-08-24 11:41:58,712 [dag.py:759] op:det add input channel.
+INFO 2022-08-24 11:41:58,720 [dag.py:759] op:rec add input channel.
+INFO 2022-08-24 11:41:58,720 [dag.py:767] pred_op:det add output channel
+INFO 2022-08-24 11:41:58,727 [dag.py:788] last op:rec add output channel
+INFO 2022-08-24 11:41:58,728 [dag.py:829] [DAG] Succ build DAG
+INFO 2022-08-24 11:41:58,760 [dag.py:912] [DAG] start
+INFO 2022-08-24 11:41:58,761 [dag.py:192] [DAG] set in channel succ, name [@DAGExecutor]
+INFO 2022-08-24 11:41:58,763 [pipeline_server.py:59] [PipelineServicer] succ init
+INFO 2022-08-24 11:41:58,772 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,772 [operator.py:1360] Init cuda env in process 0
+INFO 2022-08-24 11:41:58,772 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,803 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,803 [operator.py:1360] Init cuda env in process 1
+INFO 2022-08-24 11:41:58,803 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,811 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,811 [operator.py:1360] Init cuda env in process 2
+INFO 2022-08-24 11:41:58,811 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,829 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,830 [operator.py:1360] Init cuda env in process 3
+INFO 2022-08-24 11:41:58,830 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,853 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,853 [operator.py:1360] Init cuda env in process 4
+INFO 2022-08-24 11:41:58,853 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,871 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,872 [operator.py:1360] Init cuda env in process 5
+INFO 2022-08-24 11:41:58,872 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,918 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,919 [operator.py:1360] Init cuda env in process 7
+INFO 2022-08-24 11:41:58,919 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,937 [local_service_handler.py:183] Models(./ppocr_det_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,937 [operator.py:1360] Init cuda env in process 6
+INFO 2022-08-24 11:41:58,937 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:58,969 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:58,969 [operator.py:1360] Init cuda env in process 0
+INFO 2022-08-24 11:41:58,969 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:59,027 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:59,027 [operator.py:1360] Init cuda env in process 1
+INFO 2022-08-24 11:41:59,028 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:59,058 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:59,058 [operator.py:1360] Init cuda env in process 2
+INFO 2022-08-24 11:41:59,058 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:41:59,067 [local_service_handler.py:183] Models(./ppocr_rec_v3_serving) will be launched by device gpu. use_gpu:True, use_trt:False, use_lite:False, use_xpu:False, device_type:-1, devices:[0], mem_optim:True, ir_optim:True, use_profile:False, thread_num:2, client_type:local_predictor, fetch_names:None, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_ascend_cl:False, min_subgraph_size:3,is_set_dynamic_shape_info:False
+INFO 2022-08-24 11:41:59,067 [operator.py:1360] Init cuda env in process 3
+INFO 2022-08-24 11:41:59,068 [local_service_handler.py:233] GET_CLIENT : concurrency_idx=0, device_num=1
+INFO 2022-08-24 11:42:00,370 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,382 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,452 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,452 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,481 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,481 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,642 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,642 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,652 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,652 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,701 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,701 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,944 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:00,944 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:00,944 [operator.py:1381] [det|3] Succ init
+INFO 2022-08-24 11:42:00,950 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,951 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,966 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,970 [local_predict.py:149] pdmodel_file_list:['./ppocr_det_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_det_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:00,970 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:00,982 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_det_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:01,025 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,025 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,026 [operator.py:1381] [det|0] Succ init
+INFO 2022-08-24 11:42:01,030 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:01,031 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:01,068 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,069 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,069 [operator.py:1381] [det|5] Succ init
+INFO 2022-08-24 11:42:01,089 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,089 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,089 [operator.py:1381] [det|2] Succ init
+INFO 2022-08-24 11:42:01,129 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,129 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,129 [operator.py:1381] [det|4] Succ init
+INFO 2022-08-24 11:42:01,137 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:01,137 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:01,188 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,188 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,188 [operator.py:1381] [det|1] Succ init
+INFO 2022-08-24 11:42:01,252 [local_predict.py:149] pdmodel_file_list:['./ppocr_rec_v3_serving/inference.pdmodel'], pdiparams_file_list:['./ppocr_rec_v3_serving/inference.pdiparams']
+INFO 2022-08-24 11:42:01,253 [local_predict.py:157] LocalPredictor load_model_config params: model_path:./ppocr_rec_v3_serving, use_gpu:True, gpu_id:0, use_profile:False, thread_num:2, mem_optim:True, ir_optim:True, use_trt:False, use_lite:False, use_xpu:False, precision:fp32, use_calib:False, use_mkldnn:False, mkldnn_cache_capacity:0, mkldnn_op_list:None, mkldnn_bf16_op_list:None, use_feed_fetch_ops:False, use_ascend_cl:False, min_subgraph_size:3, dynamic_shape_info:{}
+INFO 2022-08-24 11:42:01,254 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,254 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-24 11:42:01,274 [operator.py:1381] [rec|0] Succ init
+INFO 2022-08-24 11:42:01,279 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,280 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-24 11:42:01,291 [operator.py:1381] [rec|3] Succ init
+INFO 2022-08-24 11:42:01,342 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,342 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,342 [operator.py:1381] [det|7] Succ init
+INFO 2022-08-24 11:42:01,351 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,351 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['sigmoid_0.tmp_0']
+INFO 2022-08-24 11:42:01,351 [operator.py:1381] [det|6] Succ init
+INFO 2022-08-24 11:42:01,366 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,366 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-24 11:42:01,377 [operator.py:1381] [rec|1] Succ init
+INFO 2022-08-24 11:42:01,435 [operator.py:410] Op({}) has no fetch name set. So fetch all vars
+INFO 2022-08-24 11:42:01,435 [operator.py:413] init_client, feed_list:['x'], fetch_list: ['softmax_5.tmp_0']
+INFO 2022-08-24 11:42:01,446 [operator.py:1381] [rec|2] Succ init
+WARNING 2022-08-24 11:42:36,955 [pipeline_server.py:519] [CONF] client_type not set, use default: brpc
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] channel_size not set, use default: 0
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] channel_recv_frist_arrive not set, use default: False
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] timeout not set, use default: -1
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] retry not set, use default: 1
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:42:36,956 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] batch_size not set, use default: 1
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] auto_batching_timeout not set, use default: -1
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] workdir not set, use default: 
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] thread_num not set, use default: 2
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] device_type not set, use default: -1
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] mem_optim not set, use default: True
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] precision not set, use default: fp32
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] use_calib not set, use default: False
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] use_mkldnn not set, use default: False
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] mkldnn_cache_capacity not set, use default: 0
+WARNING 2022-08-24 11:42:36,957 [pipeline_server.py:519] [CONF] min_subgraph_size not set, use default: 3
+INFO 2022-08-24 11:42:43,959 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316163.959957
+INFO 2022-08-24 11:42:43,960 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316163.9602017
+INFO 2022-08-24 11:42:43,960 [dag.py:378] (data_id=0 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:44,688 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:44,778 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:44,780 [dag.py:414] (data_id=0 log_id=0) Succ predict
+INFO 2022-08-24 11:42:44,784 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316164.7848463
+INFO 2022-08-24 11:42:44,785 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316164.7850144
+INFO 2022-08-24 11:42:44,785 [dag.py:378] (data_id=1 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:45,052 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:45,131 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:45,133 [dag.py:414] (data_id=1 log_id=0) Succ predict
+INFO 2022-08-24 11:42:45,136 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316165.1369412
+INFO 2022-08-24 11:42:45,137 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316165.137102
+INFO 2022-08-24 11:42:45,137 [dag.py:378] (data_id=2 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:45,406 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:45,474 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:45,476 [dag.py:414] (data_id=2 log_id=0) Succ predict
+INFO 2022-08-24 11:42:45,479 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316165.4797654
+INFO 2022-08-24 11:42:45,479 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316165.4799297
+INFO 2022-08-24 11:42:45,480 [dag.py:378] (data_id=3 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:46,161 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,166 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,167 [dag.py:414] (data_id=3 log_id=0) Succ predict
+INFO 2022-08-24 11:42:46,173 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316166.1735396
+INFO 2022-08-24 11:42:46,173 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316166.1737165
+INFO 2022-08-24 11:42:46,173 [dag.py:378] (data_id=4 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:46,514 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,577 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,579 [dag.py:414] (data_id=4 log_id=0) Succ predict
+INFO 2022-08-24 11:42:46,582 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316166.5824752
+INFO 2022-08-24 11:42:46,582 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316166.5826497
+INFO 2022-08-24 11:42:46,582 [dag.py:378] (data_id=5 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:46,817 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,882 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:46,884 [dag.py:414] (data_id=5 log_id=0) Succ predict
+INFO 2022-08-24 11:42:46,887 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316166.8870497
+INFO 2022-08-24 11:42:46,887 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316166.8871872
+INFO 2022-08-24 11:42:46,887 [dag.py:378] (data_id=6 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:47,226 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:47,352 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:47,354 [dag.py:414] (data_id=6 log_id=0) Succ predict
+INFO 2022-08-24 11:42:47,357 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316167.3579607
+INFO 2022-08-24 11:42:47,358 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316167.3581078
+INFO 2022-08-24 11:42:47,358 [dag.py:378] (data_id=7 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:47,853 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:47,922 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:47,924 [dag.py:414] (data_id=7 log_id=0) Succ predict
+INFO 2022-08-24 11:42:47,927 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316167.9277465
+INFO 2022-08-24 11:42:47,927 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316167.9279132
+INFO 2022-08-24 11:42:47,928 [dag.py:378] (data_id=8 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:48,472 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:48,541 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:48,543 [dag.py:414] (data_id=8 log_id=0) Succ predict
+INFO 2022-08-24 11:42:48,546 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316168.546673
+INFO 2022-08-24 11:42:48,546 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316168.5468314
+INFO 2022-08-24 11:42:48,546 [dag.py:378] (data_id=9 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:42:48,976 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:49,040 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:42:49,041 [dag.py:414] (data_id=9 log_id=0) Succ predict
+INFO 2022-08-24 11:44:03,878 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316243.878337
+INFO 2022-08-24 11:44:03,878 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316243.8789802
+INFO 2022-08-24 11:44:03,879 [dag.py:378] (data_id=10 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:44:04,446 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:44:40,772 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:44:40,874 [dag.py:414] (data_id=10 log_id=0) Succ predict
+INFO 2022-08-24 11:44:40,889 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316280.889236
+INFO 2022-08-24 11:44:40,889 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316280.8894768
+INFO 2022-08-24 11:44:40,889 [dag.py:378] (data_id=11 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:44:41,341 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:07,170 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:07,248 [dag.py:414] (data_id=11 log_id=0) Succ predict
+INFO 2022-08-24 11:45:07,259 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316307.2594917
+INFO 2022-08-24 11:45:07,259 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316307.2597048
+INFO 2022-08-24 11:45:07,259 [dag.py:378] (data_id=12 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:45:07,482 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:18,098 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:18,139 [dag.py:414] (data_id=12 log_id=0) Succ predict
+INFO 2022-08-24 11:45:18,167 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316318.166994
+INFO 2022-08-24 11:45:18,167 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316318.1676247
+INFO 2022-08-24 11:45:18,167 [dag.py:378] (data_id=13 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:45:18,447 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:28,364 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:28,400 [dag.py:414] (data_id=13 log_id=0) Succ predict
+INFO 2022-08-24 11:45:28,406 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316328.4064376
+INFO 2022-08-24 11:45:28,406 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316328.4066038
+INFO 2022-08-24 11:45:28,406 [dag.py:378] (data_id=14 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:45:28,685 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:30,330 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:30,336 [dag.py:414] (data_id=14 log_id=0) Succ predict
+INFO 2022-08-24 11:45:30,354 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316330.3547845
+INFO 2022-08-24 11:45:30,355 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316330.355002
+INFO 2022-08-24 11:45:30,355 [dag.py:378] (data_id=15 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:45:30,769 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:32,236 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:45:32,242 [dag.py:414] (data_id=15 log_id=0) Succ predict
+INFO 2022-08-24 11:46:10,085 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316370.0856078
+INFO 2022-08-24 11:46:10,085 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316370.0858908
+INFO 2022-08-24 11:46:10,085 [dag.py:378] (data_id=16 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:46:10,542 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:10,670 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:10,672 [dag.py:414] (data_id=16 log_id=0) Succ predict
+INFO 2022-08-24 11:46:10,679 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316370.6791408
+INFO 2022-08-24 11:46:10,679 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316370.6793191
+INFO 2022-08-24 11:46:10,679 [dag.py:378] (data_id=17 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:46:11,142 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:11,263 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:11,265 [dag.py:414] (data_id=17 log_id=0) Succ predict
+INFO 2022-08-24 11:46:11,271 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316371.271718
+INFO 2022-08-24 11:46:11,271 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316371.2718825
+INFO 2022-08-24 11:46:11,271 [dag.py:378] (data_id=18 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:46:11,730 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:11,852 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:11,854 [dag.py:414] (data_id=18 log_id=0) Succ predict
+INFO 2022-08-24 11:46:11,862 [pipeline_server.py:62] (log_id=0) inference request name:ocr self.name:ocr time:1661316371.8626695
+INFO 2022-08-24 11:46:11,862 [operator.py:1788] RequestOp unpack one request. log_id:0, clientip:             name:ocr, method:prediction, time:1661316371.8628843
+INFO 2022-08-24 11:46:11,862 [dag.py:378] (data_id=19 log_id=0) Succ Generate ID 
+INFO 2022-08-24 11:46:12,309 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:12,437 [operator.py:1454] prometheus inf count +1
+INFO 2022-08-24 11:46:12,439 [dag.py:414] (data_id=19 log_id=0) Succ predict
