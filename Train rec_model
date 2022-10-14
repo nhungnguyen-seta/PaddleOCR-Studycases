@@ -1,3 +1,5 @@
+$ conda activate car_damage_env
+
 *Train model:
 
 python3 tools/train.py -c configs/rec/en_PP-OCRv3_rec_train.yml -o Global.pretrained_model=./pretrain_models/en_PP-OCRv3_rec_train/best_accuracy
@@ -12,4 +14,4 @@ python3 tools/export_model.py -c configs/rec/en_PP-OCRv3_rec_train.yml -o Global
 
 * Predict:
 
-python3 tools/infer/predict_rec.py --image_dir="/home/os/Desktop/SETA/Seta_Car/test_imgs/ecosport_test.png" --rec_model_dir="./inference/PPOCRv3_rec_22082022_infer/" --rec_image_shape="3, 48, 320" --rec_char_dict_path="ppocr/utils/en_dict.txt" --use_gpu False
+python3 tools/infer/predict_rec.py --image_dir="/home/os/Desktop/SETA/Seta_Car/test_lux_sa.png" --rec_model_dir="./inference/PPOCRv3_rec_carmodels_30092022_infer/" --rec_image_shape="3, 48, 320" --rec_char_dict_path="ppocr/utils/en_dict.txt" --use_gpu False
