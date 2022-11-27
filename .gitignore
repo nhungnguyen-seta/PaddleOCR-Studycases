@@ -1,2 +1,9 @@
-train_data
+pretrain_models
+train_data_carmodel
+train_data_lisenceplate
+__pypackages__/
+__pycache__/
+inference_results
+RELEASE_2015-08-31
 output
+train_data
