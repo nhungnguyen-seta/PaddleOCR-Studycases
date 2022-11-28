@@ -17,7 +17,7 @@ train_data_lisenceplate/51H 97199_1667809818.png_51H.png	51H
 train_data_lisenceplate/49A 20170_1667809401.png_49A-201.70.png	49A-201.70
 train_data_lisenceplate/60A 53856_1667812131.png_60A-538.56.png	60A-538.56
 train_data_lisenceplate/30H 31582_1667811023.png_30H-315.82.png	30H-315.82
-train_data_lisenceplate/30A 62746_1667810956.png_VIF.png	VIF
+train_data_lisenceplate/30A 62746_1667810956.png_VIF.png	VIE
 train_data_lisenceplate/30A 11211_1667811221.png_30A.png	30A
 train_data_lisenceplate/68A 12358_1667811978.png_68A.png	68A
 train_data_lisenceplate/20A 31776_1667811457.png_20A-317.76.png	20A-317.76
@@ -592,7 +592,7 @@ train_data_lisenceplate/51H 79910_1667812152.png_51H.png	51H
 train_data_lisenceplate/75A 18369_1667812551.png_75A-183.69.png	75A-183.69
 train_data_lisenceplate/30E 07085_1667811391.png_070.85.png	070.85
 train_data_lisenceplate/51K 01867_1667812718.png_51K.png	51K
-train_data_lisenceplate/51K 23033_1667811455.png_230.33.png	230.33
+train_data_lisenceplate/51K 23033_1667811455.png_230.63.png	230.63
 train_data_lisenceplate/75A 17943_1667812871.png_75A.png	75A
 train_data_lisenceplate/75A 04774_1667812580.png_75A.png	75A
 train_data_lisenceplate/38A 29878_1667811297.png_298.78.png	298.78
@@ -1591,7 +1591,7 @@ train_data_lisenceplate/68A 22365_1667811701.png_223.65.png	223.65
 train_data_lisenceplate/30F 41325_1667810874.png_30F.png	30F
 train_data_lisenceplate/63A 06695_1667812833.png_63A-066.95.png	63A-066.95
 train_data_lisenceplate/99A 48103_1667810159.png_99A.png	99A
-train_data_lisenceplate/69A 03360_1667812121.png_694-033.60.png	694-033.60
+train_data_lisenceplate/69A 03360_1667812121.png_69A-033.60.png	69A-033.60
 train_data_lisenceplate/65A 10935_1667811781.png_65A-109.35.png	65A-109.35
 train_data_lisenceplate/30H 62292_1667811082.png_622.92.png	622.92
 train_data_lisenceplate/51F 34710_1667809599.png_347.10.png	347.10
@@ -2445,7 +2445,7 @@ train_data_lisenceplate/51H 73573_1667811569.png_51H.png	51H
 train_data_lisenceplate/51K 00981_1667812279.png_009.81.png	009.81
 train_data_lisenceplate/68A 17329_1667811776.png_68A-173.29.png	68A-173.29
 train_data_lisenceplate/25A 02829_1667812415.png_25A.png	25A
-train_data_lisenceplate/61X 05889_1667812726.png_61X.png	61X
+train_data_lisenceplate/61X 05889_1667812726.png_61K.png	61K
 train_data_lisenceplate/20A 27628_1667811937.png_20A.png	20A
 train_data_lisenceplate/48A 11032_1667811870.png_48A.png	48A
 train_data_lisenceplate/66A 10601_1667809690.png_66A-106.01.png	66A-106.01
@@ -3346,7 +3346,7 @@ train_data_lisenceplate/37A 33644_1667812276.png_37A.png	37A
 train_data_lisenceplate/51H 54157_1667811705.png_51H.png	51H
 train_data_lisenceplate/15A 65680_1667811341.png_15A.png	15A
 train_data_lisenceplate/90A 10542_1667810711.png_105.42.png	105.42
-train_data_lisenceplate/20F 19063_1667809885.png_90A-190.63.png	90A-190.63
+train_data_lisenceplate/20F 19063_1667809885.png_90A-196.63.png	90A-196.63
 train_data_lisenceplate/63A 09429_1667812413.png_094.29.png	094.29
 train_data_lisenceplate/75A 07092_1667812550.png_75A.png	75A
 train_data_lisenceplate/69A 10021_1667812487.png_100.21.png	100.21
@@ -3544,7 +3544,7 @@ train_data_lisenceplate/51K 23579_1667811362.png_51K-235.79.png	51K-235.79
 train_data_lisenceplate/51K 17576_1667812382.png_175.76.png	175.76
 train_data_lisenceplate/89A 11841_1667812700.png_89A-118.41.png	89A-118.41
 train_data_lisenceplate/51H 02397_1667812787.png_51H-023.97.png	51H-023.97
-train_data_lisenceplate/30G 5481_1667812466.png_306.png	306
+train_data_lisenceplate/30G 5481_1667812466.png_30G.png	30G
 train_data_lisenceplate/43A 50730_1667811394.png_43A.png	43A
 train_data_lisenceplate/78A 09321_1667811547.png_093.21.png	093.21
 train_data_lisenceplate/51K 21683_1667812763.png_216.83.png	216.83
@@ -3797,10 +3797,10 @@ train_data_lisenceplate/30F-Screenshot from 2022-09-30 01-27-15.png	30F
 train_data_lisenceplate/30G-2.png	30G
 train_data_lisenceplate/6-2022-08-16 15-16-23.png	6
 train_data_lisenceplate/51H-Screenshot from 2022-11-02 00-00-14.png	51H
-train_data_lisenceplate/5.png	5.png
+train_data_lisenceplate/5.png	5
 train_data_lisenceplate/30-2022-08-16 15-09-23.png	30
 train_data_lisenceplate/30H-2022-08-16 15-15-58.png	30H
-train_data_lisenceplate/19.png	19.png
+train_data_lisenceplate/19.png	19
 train_data_lisenceplate/30H-2022-08-26 16-26-21.png	30H
 train_data_lisenceplate/51H-2022-08-26 13-57-41.png	51H
 train_data_lisenceplate/61A-Screenshot from 2022-11-07 15-58-05.png	61A
@@ -3815,7 +3815,7 @@ train_data_lisenceplate/74-2022-08-26 16-30-30.png	74
 train_data_lisenceplate/19-2022-08-26 16-30-44.png	19
 train_data_lisenceplate/46-Screenshot from 2022-09-30 01-14-21.png	46
 train_data_lisenceplate/H-2022-08-26 16-26-47.png	H
-train_data_lisenceplate/30F.png	30F.png
+train_data_lisenceplate/30F.png	30F
 train_data_lisenceplate/5-2022-08-26 14-07-40.png	5
 train_data_lisenceplate/622.92-2022-08-16 15-16-49.png	622.92
 train_data_lisenceplate/1-2022-08-26 13-57-59.png	1
@@ -3825,8 +3825,8 @@ train_data_lisenceplate/90A-196.63.png	90A
 train_data_lisenceplate/51H-2022-08-26 16-31-15.png	51H
 train_data_lisenceplate/75A-2022-08-19 16-58-32.png	75A
 train_data_lisenceplate/H-2022-08-24 21-00-08.png	H
-train_data_lisenceplate/3.png	3.png
-train_data_lisenceplate/51H.png	51H.png
+train_data_lisenceplate/3.png	3
+train_data_lisenceplate/51H.png	51H
 train_data_lisenceplate/5-2022-08-24 21-00-32.png	5
 train_data_lisenceplate/30H-2022-08-16 15-13-15.png	30H
 train_data_lisenceplate/30F-Screenshot from 2022-11-01 23-03-38.png	30F
@@ -3839,7 +3839,7 @@ train_data_lisenceplate/116.17-Screenshot from 2022-11-01 22-55-40.png	116.17
 train_data_lisenceplate/30A-627.46.png	30A
 train_data_lisenceplate/30F-Screenshot from 2022-11-01 23-12-03.png	30F
 train_data_lisenceplate/97-Screenshot from 2022-09-22 11-40-24.png	97
-train_data_lisenceplate/6.png	6.png
+train_data_lisenceplate/6.png	6
 train_data_lisenceplate/30H-2022-08-26 13-49-42.png	30H
 train_data_lisenceplate/30A-2022-08-19 16-56-55.png	30A
 train_data_lisenceplate/983.12-Screenshot from 2022-11-02 00-00-48.png	983.12
@@ -3849,10 +3849,10 @@ train_data_lisenceplate/30G-2022-08-24 20-33-14.png	30G
 train_data_lisenceplate/1-2022-08-24 20-57-45.png	1
 train_data_lisenceplate/H-2.png	H
 train_data_lisenceplate/92-2022-08-26 16-27-26.png	92
-train_data_lisenceplate/2.png	2.png
+train_data_lisenceplate/2.png	2
 train_data_lisenceplate/A-2022-08-19 16-57-23.png	A
 train_data_lisenceplate/9-2.png	9
-train_data_lisenceplate/9.png	9.png
+train_data_lisenceplate/9.png	9
 train_data_lisenceplate/974-123.png	974
 train_data_lisenceplate/974.19-Screenshot from 2022-11-01 23-03-59.png	974.19
 train_data_lisenceplate/179.55-Screenshot from 2022-11-01 23-00-39.png	179.55
@@ -3863,17 +3863,17 @@ train_data_lisenceplate/30.png	30.png
 train_data_lisenceplate/H-123.png	H
 train_data_lisenceplate/0-Screenshot from 2022-09-12 09-46-15.png	0
 train_data_lisenceplate/A-2022-08-16 15-22-45.png	A
-train_data_lisenceplate/30G.png	30G.png
+train_data_lisenceplate/30G.png	30G
 train_data_lisenceplate/2-2.png	2
 train_data_lisenceplate/0-2022-08-19 16-57-40.png	0
 train_data_lisenceplate/30G-3.png	30G
 train_data_lisenceplate/30H-Screenshot from 2022-09-12 09-49-16.png	30H
 train_data_lisenceplate/30H-Screenshot from 2022-11-02 00-12-39.png	30H
-train_data_lisenceplate/30H.png	30H.png
+train_data_lisenceplate/30H.png	30H
 train_data_lisenceplate/1-3.png	1
 train_data_lisenceplate/9-Screenshot from 2022-09-22 10-17-35.png	9
 train_data_lisenceplate/68A-Screenshot from 2022-11-07 15-59-28.png	68A
-train_data_lisenceplate/4.png	4.png
+train_data_lisenceplate/4.png	4
 train_data_lisenceplate/76A-Screenshot from 2022-11-01 23-13-07.png	76A
 train_data_lisenceplate/30H-Screenshot from 2022-11-01 23-33-20.png	30H
 train_data_lisenceplate/30F-Screenshot from 2022-11-01 23-11-38.png	30F
@@ -3884,6 +3884,169 @@ train_data_lisenceplate/2-2022-08-16 15-20-12.png	2
 train_data_lisenceplate/30H-2-08-26 16-28-01.png	30H
 train_data_lisenceplate/75-2022-08-19 16-58-08.png	75
 train_data_lisenceplate/07-Screenshot from 2022-10-05 15-47-45.png	07
-train_data_lisenceplate/7.png	7.png
-train_data_lisenceplate/30E.png	30E.png
+train_data_lisenceplate/7.png	7
+train_data_lisenceplate/30E.png	30E
 train_data_lisenceplate/89A-2022-08-16 15-19-33.png	89A
+train_data_lisenceplate/1669024867_916.37.png	916.37
+train_data_lisenceplate/1669024769_167.36.png	167.36
+train_data_lisenceplate/1669024847_313.90.png	313.90
+train_data_lisenceplate/1669024813_51F.png	51F
+train_data_lisenceplate/1669024785_585.71.png	585.71
+train_data_lisenceplate/1669024882_63A.png	63A
+train_data_lisenceplate/1669024839_51G-497.27.png	51G-497.27
+train_data_lisenceplate/1669024773_643.84.png	643.84
+train_data_lisenceplate/1669024780_51H.png	51H
+train_data_lisenceplate/1669024891_922.07.png	922.07
+train_data_lisenceplate/1669024812_855.01.png	855.01
+train_data_lisenceplate/1669024831_51A-855.01.png	51A-855.01
+train_data_lisenceplate/1669024788_17A-167.36.png	17A-167.36
+train_data_lisenceplate/1669024814_269.86.png	269.86
+train_data_lisenceplate/Screenshot from 2022-11-27 17-49-10_177.76.png	177.76
+train_data_lisenceplate/1669024890_51A.png	51A
+train_data_lisenceplate/1669024836_30E-325.49.png	30E-325.49
+train_data_lisenceplate/1669024828_962.94.png	962.94
+train_data_lisenceplate/1669024832_969.00.png	969.00
+train_data_lisenceplate/1669024803_643.84.png	643.84
+train_data_lisenceplate/1669024824_51H.png	51H
+train_data_lisenceplate/1669024766_51G-497.27.png	51G-497.27
+train_data_lisenceplate/1669024820_643.84.png	643.84
+train_data_lisenceplate/1669024863_51H-356.71.png	51H-356.71
+train_data_lisenceplate/1669024772_141.06.png	141.06
+train_data_lisenceplate/1669024888_30E-609.79.png	30E-609.79
+train_data_lisenceplate/1669024803_30H.png	30H
+train_data_lisenceplate/1669024826_269.86.png	269.86
+train_data_lisenceplate/1669024795_29A-163.50.png	29A-163.50
+train_data_lisenceplate/1669024870_51H-356.71.png	51H-356.71
+train_data_lisenceplate/1669024849_30E-081.74.png	30E-081.74
+train_data_lisenceplate/1669024838_922.07.png	922.07
+train_data_lisenceplate/1669024862_609.79.png	609.79
+train_data_lisenceplate/Screenshot from 2022-11-27 17-48-37_30H.png	30H
+train_data_lisenceplate/1669024798_30E-585.71.png	30E-585.71
+train_data_lisenceplate/1669024857_30H.png	30H
+train_data_lisenceplate/1669024842_30F.png	30F
+train_data_lisenceplate/1669024875_30E-325.49.png	30E-325.49
+train_data_lisenceplate/1669024768_30H.png	30H
+train_data_lisenceplate/1669024834_962.94.png	962.94
+train_data_lisenceplate/1669024874_30H.png	30H
+train_data_lisenceplate/1669024855_30E-081.74.png	30E-081.74
+train_data_lisenceplate/1669024769_17A.png	17A
+train_data_lisenceplate/1669024866_17A.png	17A
+train_data_lisenceplate/1669024854_51A-956.58.png	51A-956.58
+train_data_lisenceplate/1669024807_30E.png	30E
+train_data_lisenceplate/1669024878_30E.png	30E
+train_data_lisenceplate/1669024865_609.79.png	609.79
+train_data_lisenceplate/1669024848_133.63.png	133.63
+train_data_lisenceplate/1669024779_643.84.png	643.84
+train_data_lisenceplate/1669024774_916.37.png	916.37
+train_data_lisenceplate/1669024821_30H.png	30H
+train_data_lisenceplate/1669024841_135.31.png	135.31
+train_data_lisenceplate/1669024889_643.84.png	643.84
+train_data_lisenceplate/1669024774_30F.png	30F
+train_data_lisenceplate/1669024834_51F.png	51F
+train_data_lisenceplate/1669024799_30E-081.74.png	30E-081.74
+train_data_lisenceplate/1669024789_643.84.png	643.84
+train_data_lisenceplate/1669024891_30A.png	30A
+train_data_lisenceplate/1669024775_30E.png	30E
+train_data_lisenceplate/1669024876_30A.png	30A
+train_data_lisenceplate/1669024895_30E.png	30E
+train_data_lisenceplate/1669024858_569.02.png	569.02
+train_data_lisenceplate/1669024890_956.58.png	956.58
+train_data_lisenceplate/1669024866_167.36.png	167.36
+train_data_lisenceplate/1669024819_88A-123.45.png	88A-123.45
+train_data_lisenceplate/1669024817_30E-609.79.png	30E-609.79
+train_data_lisenceplate/1669024837_51A-855.01.png	51A-855.01
+train_data_lisenceplate/1669024853_51A-956.58.png	51A-956.58
+train_data_lisenceplate/1669024792_30E-325.49.png	30E-325.49
+train_data_lisenceplate/1669024894_549.21.png	549.21
+train_data_lisenceplate/1669024826_30H.png	30H
+train_data_lisenceplate/1669024889_30H.png	30H
+train_data_lisenceplate/1669024809_497.27.png	497.27
+train_data_lisenceplate/1669024794_51F-569.02.png	51F-569.02
+train_data_lisenceplate/1669024879_51H.png	51H
+train_data_lisenceplate/1669024785_30E.png	30E
+train_data_lisenceplate/1669024885_325.49.png	325.49
+train_data_lisenceplate/1669024838_30A.png	30A
+train_data_lisenceplate/1669024772_51H.png	51H
+train_data_lisenceplate/1669024767_97.27.png	97.27
+train_data_lisenceplate/1669024876_969.00.png	969.00
+train_data_lisenceplate/1669024781_51A.png	51A
+train_data_lisenceplate/1669024796_30E.png	30E
+train_data_lisenceplate/1669024815_51F-962.94.png	51F-962.94
+train_data_lisenceplate/1669024828_51F.png	51F
+train_data_lisenceplate/1669024782_51A.png	51A
+train_data_lisenceplate/1669024768_269.86.png	269.86
+train_data_lisenceplate/1669024767_51G.png	51G
+train_data_lisenceplate/1669024861_29A-163.50.png	29A-163.50
+train_data_lisenceplate/1669024805_51H-141.06.png	51H-141.06
+train_data_lisenceplate/1669024874_549.21.png	549.21
+train_data_lisenceplate/1669024823_51H-141.06.png	51H-141.06
+train_data_lisenceplate/1669024864_51F.png	51F
+train_data_lisenceplate/1669024864_569.02.png	569.02
+train_data_lisenceplate/1669024802_313.90.png	313.90
+train_data_lisenceplate/1669024882_133.63.png	133.63
+train_data_lisenceplate/1669024840_30E-585.71.png	30E-585.71
+train_data_lisenceplate/1669024813_569.02.png	569.02
+train_data_lisenceplate/1669024865_30E.png	30E
+train_data_lisenceplate/1669024862_30E.png	30E
+train_data_lisenceplate/1669024869_30E-081.74.png	30E-081.74
+train_data_lisenceplate/1669024814_30H.png	30H
+train_data_lisenceplate/1669024894_30H.png	30H
+train_data_lisenceplate/1669024847_30F.png	30F
+train_data_lisenceplate/1669024781_956.58.png	956.58
+train_data_lisenceplate/1669024791_916.37.png	916.37
+train_data_lisenceplate/1669024886_30A-969.00.png	30A-969.00
+train_data_lisenceplate/1669024809_51G.png	51G
+train_data_lisenceplate/1669024846_123.45.png	123.45
+train_data_lisenceplate/1669024885_30E.png	30E
+train_data_lisenceplate/1669024800_497.27.png	497.27
+train_data_lisenceplate/1669024895_585.71.png	585.71
+train_data_lisenceplate/1669024824_356.71.png	356.71
+train_data_lisenceplate/1669024846_88A.png	88A
+train_data_lisenceplate/1669024833_30H.png	30H
+train_data_lisenceplate/1669024775_585.71.png	585.71
+train_data_lisenceplate/1669024833_269.86.png	269.86
+train_data_lisenceplate/1669024820_30H.png	30H
+train_data_lisenceplate/Screenshot from 2022-11-27 17-48-52_30H.png	30H
+train_data_lisenceplate/1669024843_30H.png	30H
+train_data_lisenceplate/Screenshot from 2022-11-27 17-50-49_88A.png	88A
+train_data_lisenceplate/1669024800_51G.png	51G
+train_data_lisenceplate/1669024773_30H.png	30H
+train_data_lisenceplate/1669024811_51F-569.02.png	51F-569.02
+train_data_lisenceplate/1669024810_956.58.png	956.58
+train_data_lisenceplate/1669024851_30A-969.00.png	30A-969.00
+train_data_lisenceplate/1669024829_9.00.png	9.00
+train_data_lisenceplate/1669024871_30H.png	30H
+train_data_lisenceplate/1669024810_51A.png	51A
+train_data_lisenceplate/1669024848_63A.png	63A
+train_data_lisenceplate/1669024841_51A.png	51A
+train_data_lisenceplate/1669024887_51A-956.58.png	51A-956.58
+train_data_lisenceplate/1669024868_30E-585.71.png	30E-585.71
+train_data_lisenceplate/1669024832_30A.png	30A
+train_data_lisenceplate/1669024873_51F-569.02.png	51F-569.02
+train_data_lisenceplate/1669024842_916.37.png	916.37
+train_data_lisenceplate/1669024802_30F.png	30F
+train_data_lisenceplate/1669024871_269.86.png	269.86
+train_data_lisenceplate/1669024867_30F.png	30F
+train_data_lisenceplate/1669024825_30F-313.90.png	30F-313.90
+train_data_lisenceplate/1669024892_123.45.png	123.45
+train_data_lisenceplate/1669024807_609.79.png	609.79
+train_data_lisenceplate/1669024796_325.49.png	325.49
+train_data_lisenceplate/Screenshot from 2022-11-27 17-45-13_30E.png	30E
+train_data_lisenceplate/1669024858_51F.png	51F
+train_data_lisenceplate/1669024827_29A-163.50.png	29A-163.50
+train_data_lisenceplate/1669024879_141.06.png	141.06
+train_data_lisenceplate/1669024789_30H.png	30H
+train_data_lisenceplate/1669024779_30H.png	30H
+train_data_lisenceplate/1669024857_643.84.png	643.84
+train_data_lisenceplate/1669024878_325.49.png	325.49
+train_data_lisenceplate/1669024778_29A-163.50.png	29A-163.50
+train_data_lisenceplate/1669024872_30E-081.74.png	30E-081.74
+train_data_lisenceplate/1669024791_30F.png	30F
+train_data_lisenceplate/1669024843_269.86.png	269.86
+train_data_lisenceplate/1669024812_51A.png	51A
+train_data_lisenceplate/1669024780_356.71.png	356.71
+train_data_lisenceplate/1669024782_855.01.png	855.01
+train_data_lisenceplate/1669024821_549.21.png	549.21
+train_data_lisenceplate/1669024883_51F-962.94.png	51F-962.94
+train_data_lisenceplate/1669024829_0A.png	0A
+
