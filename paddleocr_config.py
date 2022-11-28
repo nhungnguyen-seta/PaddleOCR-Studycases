@@ -2,7 +2,6 @@ import argparse
 
 def get_config(text_detector = './inference/en_PP-OCRv3_det_infer.onnx',
 text_recognizer = './inference/PPOCRv3_rec_lisenceplate_14112022.onnx',
-text_classifier = './inference/ch_ppocr_mobile_v2.0_cls_infer.onnx',
 use_onnx = True):
     args = argparse.Namespace(use_gpu=False, use_xpu=False, ir_optim=True, 
     use_tensorrt=False, 
@@ -51,7 +50,7 @@ use_onnx = True):
     e2e_pgnet_valid_set='totaltext', e2e_pgnet_mode='fast', 
     # use_angle_cls=True, 
     use_angle_cls=False,
-    cls_model_dir=text_classifier, 
+    cls_model_dir=None, 
     cls_image_shape='3, 48, 192', 
     label_list=['0', '180'], 
     cls_batch_num=6, 
