@@ -425,7 +425,7 @@ def main(args):
         valid_image_file_list.append(image_file)
         img_list.append(img)
     try:
-        rec_res, _ = text_recognizer(img_list)
+        rec_res, infer_time = text_recognizer(img_list)
 
     except Exception as E:
         logger.info(traceback.format_exc())
@@ -434,6 +434,7 @@ def main(args):
     for ino in range(len(img_list)):
         logger.info("Predicts of {}:{}".format(valid_image_file_list[ino],
                                                rec_res[ino]))
+    logger.info("Average inference time:{}".format(infer_time/len(img_list)))
     if args.benchmark:
         text_recognizer.autolog.report()
 

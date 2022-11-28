@@ -158,6 +158,7 @@ def main(args):
             logger.debug("error in loading image:{}".format(image_file))
             continue
         starttime = time.time()
+
         dt_boxes, rec_res = text_sys(img)
         elapse = time.time() - starttime
         total_time += elapse
@@ -180,7 +181,9 @@ def main(args):
             boxes = dt_boxes
             txts = [rec_res[i][0] for i in range(len(rec_res))]
             scores = [rec_res[i][1] for i in range(len(rec_res))]
-
+            print('boxes: ',boxes)
+            print('txts: ',txts)
+            print('scores: ', scores)
             draw_img = draw_ocr_box_txt(
                 image,
                 boxes,
