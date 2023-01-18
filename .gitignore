@@ -9,3 +9,6 @@ output
 train_data
 train_data_lisenceplate.zip
 .ipynb_checkpoints
+*.pyc
+__pycache__
+**/__pycache__/

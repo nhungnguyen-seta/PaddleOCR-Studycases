@@ -3,13 +3,13 @@ Global:
   epoch_num: 1000
   log_smooth_window: 20
   print_batch_step: 10
-  save_model_dir: ./output/PPOCRv3_rec_23carmodels_22082022
+  save_model_dir: ./output/PPOCRv3_rec_carmodels_13012023
   save_epoch_step: 400
   eval_batch_step: [0, 500]
   cal_metric_during_train: true
   pretrained_model: 
   checkpoints:
-  save_inference_dir: /home/a4000/Data/nhungnth/PaddleOCR/inference
+  save_inference_dir: ./inference
   use_visualdl: false
   infer_img: doc/imgs_words/ch/word_1.jpg
   character_dict_path: ppocr/utils/en_dict.txt
@@ -78,7 +78,7 @@ Train:
     data_dir: ./
     ext_op_transform_idx: 1
     label_file_list:
-    - ./train_data/rec_carmodels.txt
+    - ./rec_carmodels_20230112.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -102,13 +102,13 @@ Train:
     shuffle: true
     batch_size_per_card: 32
     drop_last: true
-    num_workers: 1
+    num_workers: 4
 Eval:
   dataset:
     name: SimpleDataSet
     data_dir: ./
     label_file_list:
-    - ./train_data/rec_carmodels.txt
+    - ./rec_carmodels_20230112.txt
     transforms:
     - DecodeImage:
         img_mode: BGR
@@ -127,4 +127,4 @@ Eval:
     shuffle: false
     drop_last: false
     batch_size_per_card: 32
-    num_workers: 1
+    num_workers: 4

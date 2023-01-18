@@ -16,4 +16,4 @@ python3 tools/export_model.py -c configs/rec/en_PP-OCRv3_rec_train.yml -o Global
 
 python3 tools/infer/predict_rec.py --image_dir="/home/os/Desktop/SETA/Seta_Car/output_model/carmodel" --rec_model_dir="./inference/PPOCRv3_rec_carmodels_31102022_infer/" --rec_image_shape="3, 48, 320" --rec_char_dict_path="ppocr/utils/en_dict.txt" --use_gpu False
 
-python3 tools/infer/predict_system.py --image_dir="/home/os/Desktop/SETA/Seta_Car/OPES_repoint/lisenceplate" --det_model_dir=./inference/en_PP-OCRv3_det_infer --rec_model_dir="./inference/PPOCRv3_rec_lisenceplate_14112022/" --cls_model_dir=./inference/ch_ppocr_mobile_v2.0_cls_infer --rec_image_shape="3, 48, 320" --rec_char_dict_path="ppocr/utils/en_dict.txt" --use_gpu False
+python3 tools/infer/predict_system.py --image_dir="/home/nhungnth/Downloads/check_bienso" --det_model_dir=./inference/en_PP-OCRv3_det_infer --rec_model_dir="./inference/PPOCRv3_rec_lisenceplate_28112022_infer/" --cls_model_dir=./inference/ch_ppocr_mobile_v2.0_cls_infer --rec_image_shape="3, 48, 320" --rec_char_dict_path="ppocr/utils/en_dict.txt" --use_gpu False
