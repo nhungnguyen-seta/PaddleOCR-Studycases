@@ -4658,7 +4658,6 @@ train_data_lisenceplate/13xemay313.jpg_59F1.png	59F1
 train_data_lisenceplate/14.jpg_019-BD.png	019-BD
 train_data_lisenceplate/14.jpg_1-K8.png	1-K8
 train_data_lisenceplate/14.jpg_3876.png	3876
-train_data_lisenceplate/14.jpg_49.png	49
 train_data_lisenceplate/76.jpg_349.49.png	349.49
 train_data_lisenceplate/78.jpg_30F-333.33.png	30F-333.33
 train_data_lisenceplate/79.jpg_20A-128.94.png	20A-128.94
@@ -4688,8 +4687,6 @@ train_data_lisenceplate/110.jpg_51G.png	51G
 train_data_lisenceplate/110.jpg_999.99.png	999.99
 train_data_lisenceplate/111.jpg_29C-999.99.png	29C-999.99
 train_data_lisenceplate/111.jpg_29C.png	29C
-train_data_lisenceplate/111.jpg_999.99.png	999.99
-train_data_lisenceplate/119.jpg_29C-999.99.png	29C-999.99
 train_data_lisenceplate/119.jpg_29C.png	29C
 train_data_lisenceplate/119.jpg_999.99.png	999.99
 train_data_lisenceplate/12.jpg_374.49.png	374.49
@@ -4720,7 +4717,6 @@ train_data_lisenceplate/1PlateBaza493.jpg_ZG 567-EF.png	ZG 567-EF
 train_data_lisenceplate/50b97667-7f41-44c9-92b4-c9902d62ea8c.jpg_93A 17955.png_179.55.png	179.55
 train_data_lisenceplate/5xemay314.jpg_608.11.png	608.11
 train_data_lisenceplate/6xemay245.jpg_59-L2.png	59-L2
-train_data_lisenceplate/76.jpg_-349.49.png	-349.49
 train_data_lisenceplate/8550e3c7-e7f0-456f-bf01-ef8e6c657b28.jpg_93A 17955.png_179.55.png	179.55
 train_data_lisenceplate/92.jpg_36A-888.88.png	36A-888.88
 train_data_lisenceplate/bcdf052d-3918-469c-9d21-91b66393df7f.jpg_30A 1417.png_1417.png	1417
@@ -4768,7 +4764,6 @@ train_data_lisenceplate/images.png_016.21.png	016.21
 train_data_lisenceplate/images.png_60H.png	60H
 train_data_lisenceplate/img-0500-jpg-1658704479-4697-1658706261.jpg_None.png_192.46.png	192.46
 train_data_lisenceplate/img-0500-jpg-1658704479-4697-1658706261.jpg_None.png_50LD.png	50LD
-train_data_lisenceplate/img-0506-jpg-1658704911-8156-1658706261.jpg_50LD19246.png_50LD.png	50LD
 train_data_lisenceplate/iwt117.jpg_5B2.png	5B2
 train_data_lisenceplate/iwt363.jpg_5J0.png	5J0
 train_data_lisenceplate/iwt373.jpg_2AX.png	2AX
@@ -4861,7 +4856,6 @@ train_data_lisenceplate/Screenshot 2023-02-21 094255.png_30A.png	30A
 train_data_lisenceplate/Screenshot 2023-02-21 094255.png_888.88.png	888.88
 train_data_lisenceplate/Screenshot 2023-02-21 094450.png_51F.png	51F
 train_data_lisenceplate/Screenshot 2023-02-21 094450.png_567.89.png	567.89
-train_data_lisenceplate/Screenshot 2023-02-21 094458.png_567.89.png	567.89
 train_data_lisenceplate/Screenshot 2023-02-21 094620.png_51F.png	51F
 train_data_lisenceplate/Screenshot 2023-02-21 094620.png_567.89.png	567.89
 train_data_lisenceplate/Screenshot 2023-02-21 095140.png_056.77.png	056.77
@@ -4986,7 +4980,6 @@ train_data_lisenceplate/Screenshot 2023-02-21 102634.png_OF-FB.png	OF-FB
 train_data_lisenceplate/Screenshot 2023-02-21 102634.png_VIE.png	VIE
 train_data_lisenceplate/Screenshot 2023-02-21 102634.png_VIET NAM.png	VIET NAM
 train_data_lisenceplate/Screenshot 2023-02-21 102643.png_51H-442.44.png	51H-442.44
-train_data_lisenceplate/Screenshot 2023-02-21 102643.png_VIE.png	VIE
 train_data_lisenceplate/Screenshot 2023-02-21 102659.png_51K-086.05.png	51K-086.05
 train_data_lisenceplate/Screenshot 2023-02-21 102705.png_30G.png	30G
 train_data_lisenceplate/Screenshot 2023-02-21 102705.png_759.35.png	759.35
@@ -4998,251 +4991,8 @@ train_data_lisenceplate/Screenshot 2023-02-21 102815.png_64A-040.75.png	64A-040.
 train_data_lisenceplate/Screenshot 2023-02-21 102819.png_222.22.png	222.22
 train_data_lisenceplate/Screenshot 2023-02-21 102819.png_49-E1.png	49-E1
 train_data_lisenceplate/Screenshot 2023-02-21 102823.png_6789.png	6789
-train_data_lisenceplate/Screenshot 2023-02-21 102823.png_88-K6.png	88-K6
-train_data_lisenceplate/Screenshot 2023-02-21 102827.png_29-E1.png	29-E1
-train_data_lisenceplate/Screenshot 2023-02-21 102827.png_456.78.png	456.78
-train_data_lisenceplate/Screenshot 2023-02-21 102831.png_51B-155.33.png	51B-155.33
-train_data_lisenceplate/Screenshot 2023-02-21 102835.png_62A-078.58.png	62A-078.58
-train_data_lisenceplate/Screenshot 2023-02-21 102845.png_5555.png	5555
-train_data_lisenceplate/Screenshot 2023-02-21 100404.png_60-K2.png	60-K2
-train_data_lisenceplate/Screenshot 2023-02-21 101513.png_29C.png	29C
-train_data_lisenceplate/Screenshot 2023-02-21 101907.png_80B-2924.png	80B-2924
-train_data_lisenceplate/Screenshot 2023-02-21 102040.png_29-NN.png	29-NN
-train_data_lisenceplate/Screenshot 2023-02-21 102115.png_68C.png	68C
-train_data_lisenceplate/Screenshot 2023-02-21 102157.png_29C-705.77.png	29C-705.77
-train_data_lisenceplate/Screenshot 2023-02-21 102414.png_028.97.png	028.97
-train_data_lisenceplate/Screenshot 2023-02-21 102458.png_187.13.png	187.13
-train_data_lisenceplate/Screenshot 2023-02-21 102634.png_797.82.png	797.82
-train_data_lisenceplate/Screenshot 2023-02-21 102810.png_30E.png	30E
-train_data_lisenceplate/Screenshot 2023-02-21 102845.png_60-K2.png	60-K2
-train_data_lisenceplate/Screenshot 2023-02-21 102850.png_123.45.png	123.45
-train_data_lisenceplate/Screenshot 2023-02-21 102850.png_29-L5.png	29-L5
-train_data_lisenceplate/Screenshot 2023-02-21 102911.png_51A-138.83.png	51A-138.83
-train_data_lisenceplate/Screenshot 2023-02-21 102920.png_63-B9.png	63-B9
-train_data_lisenceplate/Screenshot 2023-02-21 102920.png_999.99.png	999.99
-train_data_lisenceplate/Screenshot 2023-02-21 102928.png_2222.png	2222
-train_data_lisenceplate/Screenshot 2023-02-21 102928.png_61-T3.png	61-T3
-train_data_lisenceplate/Screenshot 2023-02-21 102948.png_30F-666.73.png	30F-666.73
-train_data_lisenceplate/Screenshot 2023-02-21 102952.png_29A-999.99.png	29A-999.99
-train_data_lisenceplate/Screenshot 2023-02-21 103001.png_51G.png	51G
-train_data_lisenceplate/Screenshot 2023-02-21 103001.png_999.99.png	999.99
-train_data_lisenceplate/Screenshot 2023-02-21 103006.png_222.22.png	222.22
-train_data_lisenceplate/Screenshot 2023-02-21 103006.png_30F.png	30F
 train_data_lisenceplate/Screenshot from 2023-02-19 19-55-53.png_60V-5815.png_60V-5815.png	60V-5815
-train_data_lisenceplate/Screenshot from 2023-02-19 20-41-10.png_6768.png	6768
-train_data_lisenceplate/Screenshot from 2023-02-19 20-41-10.png_95T.png	95T
-train_data_lisenceplate/sh12-0924.jpg_29-S6.png	29-S6
-train_data_lisenceplate/sh12-0924.jpg_8888.png	8888
-train_data_lisenceplate/srPjjGq1W_1JGTllJycFX.jpg_51C.png	51C
-train_data_lisenceplate/srPjjGq1W_1JGTllJycFX.jpg_702.96.png	702.96
-train_data_lisenceplate/W-ZCPxRSSG5srCH-K6CTn.jpg_None.png_17A 274.35.png	17A 274.35
-train_data_lisenceplate/WJ_WeswIlSPXih7bQQBdj.jpg_30E 94615.png_30E.png	30E
-train_data_lisenceplate/WJ_WeswIlSPXih7bQQBdj.jpg_30E 94615.png_946.15.png	946.15
-train_data_lisenceplate/3.jpg_84-B1.png	84-B1
-train_data_lisenceplate/301368665_5574617585918538_8684311537052881025_n.jpg_30E 42644.png_30E.png	30E
-train_data_lisenceplate/301368665_5574617585918538_8684311537052881025_n.jpg_30E 42644.png_426.44.png	426.44
-train_data_lisenceplate/301690443_3985578151566371_3483046100093144311_n.jpg_30E 42644.png_30E-426.44.png	30E-426.44
-train_data_lisenceplate/304949553_5195257803934415_5746607661754559704_n.jpg_30E 42644.png_30E.png	30E
-train_data_lisenceplate/307717508_5675593795833843_5697378568371561583_n.jpg_99A 3126.png_99A-31286.png	99A-31286
-train_data_lisenceplate/308795185_8048462538557841_694177581981013139_n.jpg_39A 81286.png_312.86.png	312.86
-train_data_lisenceplate/308795185_8048462538557841_694177581981013139_n.jpg_39A 81286.png_99A.png	99A
-train_data_lisenceplate/309908167_6058092390867673_6677580286656231448_n.jpg_29D 09318.png_29D-093.18.png	29D-093.18
-train_data_lisenceplate/30cf640c-a849-41b2-a404-59f5bd17f5b5.jpg_14A 24646.png_14A.png	14A
-train_data_lisenceplate/329764998_994538928190995_3808577280195872597_n.jpg_None.png_ACE 86.png	ACE 86
-train_data_lisenceplate/329787648_875297807055904_5719502856032113802_n.jpg_None.png_ACE 86.png	ACE 86
-train_data_lisenceplate/33.jpg_61A-666.66.png	61A-666.66
-train_data_lisenceplate/33.jpg_61A.png	61A
-train_data_lisenceplate/330122304_873033373982746_3594832209606565033_n.jpg_30A 44008.png_30A.png	30A
-train_data_lisenceplate/330172965_586986856337314_6245891131680011031_n.jpg_None.png_35A-011.64.png	35A-011.64
-train_data_lisenceplate/330658004_2515238468639355_3144481594644381691_n.jpg_None.png_30E.png	30E
-train_data_lisenceplate/330760280_912143816869754_7925740351003012170_n.jpg_None.png_30E.png	30E
-train_data_lisenceplate/330835326_568735998686543_6239589576619947983_n.jpg_None.png_M.png	M
-train_data_lisenceplate/330845892_2332445363596325_732580828004040838_n.jpg_30A 44008.png_30A.png	30A
-train_data_lisenceplate/330845892_2332445363596325_732580828004040838_n.jpg_30A 44008.png_440.08.png	440.08
-train_data_lisenceplate/330931897_2417612681728229_1988648540128322141_n.jpg_None.png_S8.png	S8
-train_data_lisenceplate/331051128_498886595779588_1109010989851892032_n.jpg_30A 64959.png_30A.png	30A
-train_data_lisenceplate/328547335_3433115777015823_148761630853971564_n.jpg_30A 03188.png_031.88.png	031.88
-train_data_lisenceplate/328547335_3433115777015823_148761630853971564_n.jpg_30A 03188.png_30A.png	30A
-train_data_lisenceplate/328559787_539837024791818_2917380050107677547_n.jpg_None.png_CN66 WWD.png	CN66 WWD
-train_data_lisenceplate/328570337_553641686825200_6077928916501538757_n.jpg_30H 50270.png_30H-502.70.png	30H-502.70
-train_data_lisenceplate/328585052_5985265518187495_6910941480799550110_n.jpg_51F 62681.png_51F-626.81.png	51F-626.81
-train_data_lisenceplate/328664442_887231482615003_7240106205277792255_n.jpg_None.png_YX69 KYN.png	YX69 KYN
-train_data_lisenceplate/328674241_5224051314364984_1769952838336278149_n.jpg_None.png_YX69 KYN.png	YX69 KYN
-train_data_lisenceplate/328693882_577400681073629_5564849687075890705_n.jpg_30F 08671.png_30F-086.71.png	30F-086.71
-train_data_lisenceplate/328700541_945046366434682_4488015219720034492_n.jpg_30F 08671.png_30F.png	30F
-train_data_lisenceplate/328716567_1799081100461504_2923225940821702409_n.jpg_None.png_30G.png	30G
-train_data_lisenceplate/328740868_1585477701932464_3647357013322530017_n.jpg_None.png_YX69 KYN.png	YX69 KYN
-train_data_lisenceplate/328760370_482306557443710_3494690980233801427_n.jpg_30H 36043.png_360.43.png	360.43
-train_data_lisenceplate/328832053_6110997342273063_1679078759667096094_n.jpg_None.png_152.69.png	152.69
-train_data_lisenceplate/328832053_6110997342273063_1679078759667096094_n.jpg_None.png_21A.png	21A
-train_data_lisenceplate/326112881_923532252393543_2761522889975601408_n.jpg_30A 28496.png_30A-284.96.png	30A-284.96
-train_data_lisenceplate/326571908_6233148050029656_7638136447436345921_n.jpg_None.png_30H.png	30H
-train_data_lisenceplate/327256866_2159602477564857_2056329006348903899_n.jpg_14A 64969.png_14A.png	14A
-train_data_lisenceplate/327444266_565690095196668_166725692602976105_n.jpg_14A 64969.png_14A.png	14A
-train_data_lisenceplate/327546470_926955605147464_2408027546753086243_n.jpg_14A 64969.png_14A.png	14A
-train_data_lisenceplate/327722741_516272583982945_4098031871192259622_n.jpg_98A 10218.png_98A-102.18.png	98A-102.18
-train_data_lisenceplate/328054550_904399580819653_7631604227497175617_n.jpg_30A 85784.png_30A.png	30A
-train_data_lisenceplate/328126051_539538834622928_8102207490626875874_n.jpg_30A 47883.png_30A.png	30A
-train_data_lisenceplate/142.jpg_446.76.png	446.76
-train_data_lisenceplate/142.jpg_70-E1.png	70-E1
-train_data_lisenceplate/15.jpg_046.52.png	046.52
-train_data_lisenceplate/15.jpg_173.49.png	173.49
-train_data_lisenceplate/15.jpg_47-K1.png	47-K1
-train_data_lisenceplate/15.jpg_78-H1.png	78-H1
-train_data_lisenceplate/150057082_1324994157866953_4966190122906838252_n.jpg_51G 55047.png_51G.png	51G
-train_data_lisenceplate/157185618_877833309670856_7608040283113932137_n.jpg_69A 03777.png_69A-037.77.png	69A-037.77
-train_data_lisenceplate/158.jpg_397.48.png	397.48
-train_data_lisenceplate/158.jpg_82-B1.png	82-B1
-train_data_lisenceplate/16.jpg_66-P1.png	66-P1
-train_data_lisenceplate/16.jpg_75-H1.png	75-H1
-train_data_lisenceplate/160.jpg_7060.png	7060
-train_data_lisenceplate/160.jpg_99-H7.png	99-H7
-train_data_lisenceplate/161.jpg_549.53.png	549.53
-train_data_lisenceplate/163.jpg_60-.png	60-
-train_data_lisenceplate/163.jpg_9999.png	9999
-train_data_lisenceplate/165.jpg_30A-128.93.png	30A-128.93
-train_data_lisenceplate/328878645_1373347360179020_6381016331301608104_n.jpg_30E 47439.png_474.39.png	474.39
-train_data_lisenceplate/328902758_632533015345931_726113333011769466_n.jpg_None.png_CN66 WWD.png	CN66 WWD
-train_data_lisenceplate/328971838_9561201830572725_8240246489431871653_n.jpg_51F 62681.png_51F-626.81.png	51F-626.81
-train_data_lisenceplate/328987100_706421437645065_3098343987610656289_n.jpg_30K044833.png_30K.png	30K
-train_data_lisenceplate/329019862_5884369398323528_7796488228200685686_n.jpg_None.png_30F.png	30F
-train_data_lisenceplate/329049703_5936881026370751_6011350304941099077_n.jpg_30H 07507.png_075.07.png	075.07
-train_data_lisenceplate/329049703_5936881026370751_6011350304941099077_n.jpg_30H 07507.png_30H.png	30H
-train_data_lisenceplate/329049716_960475505332206_8264760876602810072_n.jpg_30H 07507.png_30H.png	30H
-train_data_lisenceplate/331175100_697949448690295_3099042543874616739_n.jpg_30A 63495.png_30A.png	30A
-train_data_lisenceplate/331175100_697949448690295_3099042543874616739_n.jpg_30A 63495.png_634.95.png	634.95
-train_data_lisenceplate/331209144_699665738558194_3028365049135914002_n.jpg_None.png_N.png	N
-train_data_lisenceplate/331252257_752588036078624_6393172976467152154_n.jpg_None.png_30H.png	30H
-train_data_lisenceplate/331259052_893465781954737_2079833204994704620_n.jpg_30F 74141.png_30F.png	30F
-train_data_lisenceplate/331326955_1333766470517634_7883920421676004171_n.jpg_90D 00280.png_90D-002.80.png	90D-002.80
-train_data_lisenceplate/331401525_525432776383642_2600996941440460496_n.jpg_None.png_2N-.png	2N-
-train_data_lisenceplate/331401525_525432776383642_2600996941440460496_n.jpg_None.png_YGN.png	YGN
-train_data_lisenceplate/2.jpg_793.79.png	793.79
-train_data_lisenceplate/20.jpg_51G-688.82.png	51G-688.82
-train_data_lisenceplate/20131907204552.jpg_59-V1.png	59-V1
-train_data_lisenceplate/20131907204552.jpg_793.79.png	793.79
-train_data_lisenceplate/2095c124-000a-48ad-b691-3465093e540c.jpg_51L 05714.png_51LD.png	51LD
-train_data_lisenceplate/2095c124-000a-48ad-b691-3465093e540c.jpg_51L 05714.png_5714.png	5714
-train_data_lisenceplate/21.jpg_333.45.png	333.45
-train_data_lisenceplate/21.jpg_38A.png	38A
-train_data_lisenceplate/21.jpg_51F-708.04.png	51F-708.04
-train_data_lisenceplate/24.jpg_000.00.png	000.00
-train_data_lisenceplate/24.jpg_18-B1.png	18-B1
-train_data_lisenceplate/25.jpg_65-X4.png	65-X4
-train_data_lisenceplate/25.jpg_7855.png	7855
-train_data_lisenceplate/266841200_675355397206956_36101523116459880_n.jpg_20A 30378.png_20A-303.78.png	20A-303.78
-train_data_lisenceplate/27.jpg_36A-888.88.png	36A-888.88
-train_data_lisenceplate/271064929_4669545349829616_47864924026066482_n.jpg_None.png_51F.png	51F
-train_data_lisenceplate/271137929_1986084394927236_8329313725555383046_n.jpg_None.png_30G.png	30G
-train_data_lisenceplate/271171290_1986084551593887_212139215754670684_n.jpg_None.png_30G.png	30G
-train_data_lisenceplate/271180377_1986084488260560_7668136292708778789_n.jpg_None.png_30G.png	30G
-train_data_lisenceplate/271894451_4663907487050416_6862422028593173178_n.jpg_99A 27595.png_275.95.png	275.95
-train_data_lisenceplate/313052881_2955670251403230_6253127640688187838_n.jpg_None.png_30A.png	30A
-train_data_lisenceplate/315222359_5752419121472104_6528544849448465462_n.jpg_98C 26677.png_266.77.png	266.77
-train_data_lisenceplate/316124466_4503120899812861_4860021385471738936_n.jpg_30E 04857.png_30E-048.57.png	30E-048.57
-train_data_lisenceplate/316218901_5714231028635559_5543093500631487690_n.jpg_51H 68053.png_51H-680.53.png	51H-680.53
 train_data_lisenceplate/316541826_5714231121968883_6543516236037293902_n.jpg_51H 68053.png_51H-680.53.png	51H-680.53
 train_data_lisenceplate/316676855_5714231261968869_9043018517225084676_n.jpg_51H 68053.png_51H-680.53.png	51H-680.53
-train_data_lisenceplate/317122219_5730188883711349_2323898941011235948_n.jpg_29C 15118.png_29C.png	29C
-train_data_lisenceplate/317183224_8438124646258136_3479745593516917670_n.jpg_30E 04857.png_30E.png	30E
-train_data_lisenceplate/317220837_8895829703792794_3188341970171057306_n.jpg_14A 48069.png_14A.png	14A
-train_data_lisenceplate/317234952_5834103446717263_6544225254072626934_n.jpg_60A 29913.png_299.13.png	299.13
-train_data_lisenceplate/317234952_5834103446717263_6544225254072626934_n.jpg_60A 29913.png_60A.png	60A
-train_data_lisenceplate/318665635_6096759423687862_2996280216309678273_n.jpg_29D 09318.png_093.18.png	093.18
-train_data_lisenceplate/318665635_6096759423687862_2996280216309678273_n.jpg_29D 09318.png_29D.png	29D
-train_data_lisenceplate/318681942_8327657070639575_6405009474066335999_n.jpg_30F 51721.png_30F.png	30F
-train_data_lisenceplate/319007318_6032875253403298_402056109569463975_n.jpg_99LD01255.png_99LD.png	99LD
-train_data_lisenceplate/326057862_1882301195474501_520979074801528369_n.jpg_30A 28496.png_284.96.png	284.96
-train_data_lisenceplate/328126712_923352542178287_7882725682480782440_n.jpg_30H 57816.png_30H.png	30H
-train_data_lisenceplate/328126712_923352542178287_7882725682480782440_n.jpg_30H 57816.png_578.16.png	578.16
-train_data_lisenceplate/328135802_6401844819843818_1384796473494952442_n.jpg_None.png_30F.png	30F
-train_data_lisenceplate/328146733_646177436928866_7995560942130320972_n.jpg_30A 04483.png_044.83.png	044.83
-train_data_lisenceplate/328233917_859279818496812_294230380457902814_n.jpg_29H 56808.png_29H.png	29H
-train_data_lisenceplate/328295076_574397341259578_6050297534020188682_n.jpg_None.png_CN66WWD.png	CN66WWD
-train_data_lisenceplate/328359652_886046629388135_1424976291593982349_n.jpg_30E 47439.png_30E-474.39.png	30E-474.39
-train_data_lisenceplate/328463789_521722303164489_2561090680475095219_n.jpg_30A 14567.png_30A.png	30A
-train_data_lisenceplate/328499294_1163340127878407_8120195713042473782_n.jpg_51F 31055.png_310.55.png	310.55
-train_data_lisenceplate/328499294_1163340127878407_8120195713042473782_n.jpg_51F 31055.png_51F.png	51F
-train_data_lisenceplate/328502464_744622813468961_2632540803742632264_n.jpg_None.png_YX69 KYN.png	YX69 KYN
-train_data_lisenceplate/328515995_554208523406913_3526373518635958789_n.jpg_51F 31055.png_51F-310.55.png	51F-310.55
-train_data_lisenceplate/329156552_6230150510338997_3057721962354042392_n.jpg_None.png_30F.png	30F
-train_data_lisenceplate/329290215_930851857926680_3841133821280406225_n.jpg_None.png_ACE 86.png	ACE 86
-train_data_lisenceplate/329365054_5551565468299983_3859868112918892584_n.jpg_30H 50270.png_30H-502.70.png	30H-502.70
-train_data_lisenceplate/329375153_1215671979046992_1100358100975378005_n.jpg_None.png_30G.png	30G
-train_data_lisenceplate/329401481_558726236188557_8361004628102723050_n.jpg_51G 72321.png_51G.png	51G
-train_data_lisenceplate/329401481_558726236188557_8361004628102723050_n.jpg_51G 72321.png_723.21.png	723.21
-train_data_lisenceplate/329481048_721905935978208_286872067673733104_n.jpg_None.png_ACE 86.png	ACE 86
-train_data_lisenceplate/329643299_6105457402852844_1632202367030350074_n.jpg_None.png_30H.png	30H
-train_data_lisenceplate/329697644_489944129802355_3200852285935816372_n.jpg_None.png_DUBAI.png	DUBAI
-train_data_lisenceplate/329705748_759160831886434_7000131124236400419_n.jpg_30E 42904.png_30E.png	30E
-train_data_lisenceplate/3.jpg_75-H1.png	75-H1
-train_data_lisenceplate/30cf640c-a849-41b2-a404-59f5bd17f5b5.jpg_14A 24646.png_246.46.png	246.46
-train_data_lisenceplate/326057862_1882301195474501_520979074801528369_n.jpg_30A 28496.png_30A.png	30A
-train_data_lisenceplate/328126051_539538834622928_8102207490626875874_n.jpg_30A 47883.png_478.83.png	478.83
-train_data_lisenceplate/328524746_1383713462375837_1072068061758762627_n.jpg_30F 77714.png_30F-777.14.png	30F-777.14
-train_data_lisenceplate/328878645_1373347360179020_6381016331301608104_n.jpg_30E 47439.png_30E.png	30E
-train_data_lisenceplate/329138912_1510032899489957_2402491196727801627_n (1).jpg_51H 16946.png_VIE.png	VIE
-train_data_lisenceplate/329750802_1235503450707300_1921333215762838539_n.jpg_None.png_M.png	M
-train_data_lisenceplate/331070727_5955453001181486_2712589416485802671_n.jpg_None.png_29H.png	29H
-train_data_lisenceplate/331402580_535032618726816_4214902295783604672_n.jpg_None.png_2N-.png	2N-
-train_data_lisenceplate/331876030_651412526663857_9181226231262543175_n.jpg_30H 11539.png_115.39.png	115.39
-train_data_lisenceplate/38a450b9-9cd0-43b1-b7a2-f61252948d80.jpg_93A 38855.png_93A.png	93A
-train_data_lisenceplate/3xemay258.jpg_59-T1.png	59-T1
-train_data_lisenceplate/331402580_535032618726816_4214902295783604672_n.jpg_None.png_YGN.png	YGN
-train_data_lisenceplate/331420595_933989147626190_5811588539166771751_n.jpg_None.png_51A.png	51A
-train_data_lisenceplate/331487967_2304869219692783_8260038262941179001_n.jpg_29D 03081.png_29D.png	29D
-train_data_lisenceplate/331518137_1429106541228346_8353893256361724865_n.jpg_None.png_51A.png	51A
-train_data_lisenceplate/331567781_1402824797124987_3596659167755983066_n.jpg_29D 03081.png_29D-030.81.png	29D-030.81
-train_data_lisenceplate/331669044_593977882154822_4587296009384195057_n.jpg_29D 03081.png_030.81.png	030.81
-train_data_lisenceplate/331669044_593977882154822_4587296009384195057_n.jpg_29D 03081.png_29D.png	29D
-train_data_lisenceplate/331679656_5896501430463525_5137774421888855139_n.jpg_21A 15269.png_21A.png	21A
-train_data_lisenceplate/331741635_9726094060749995_4938434341957486016_n.jpg_30E 70441.png_30E-704.41.png	30E-704.41
-train_data_lisenceplate/331813480_948662539627696_5010842292312204864_n.jpg_90D 00280.png_002.80.png	002.80
-train_data_lisenceplate/331813480_948662539627696_5010842292312204864_n.jpg_90D 00280.png_90D.png	90D
-train_data_lisenceplate/331876030_651412526663857_9181226231262543175_n.jpg_30H 11539.png_30H.png	30H
-train_data_lisenceplate/331887930_960018884942348_6745462237290556492_n.jpg_30F 74141.png_30F.png	30F
-train_data_lisenceplate/331887930_960018884942348_6745462237290556492_n.jpg_30F 74141.png_741.41.png	741.41
-train_data_lisenceplate/332252136_858247418805249_4210680891369402153_n.jpg_None.png_CS-8531.png	CS-8531
-train_data_lisenceplate/332275644_8854622347944392_9146924676356528247_n.jpg_60E 01105.png_011.05.png	011.05
-train_data_lisenceplate/332275644_8854622347944392_9146924676356528247_n.jpg_60E 01105.png_60E.png	60E
-train_data_lisenceplate/332360404_8884037255003019_8032675190370983801_n.jpg_51G 01807.png_018.07.png	018.07
-train_data_lisenceplate/332521727_5944807875585443_8368590850555811234_n.jpg_88A 55736.png_88A.png	88A
-train_data_lisenceplate/332688106_502012988799315_3801217806610133824_n.jpg_51G 01807.png_51G-018.07.png	51G-018.07
-train_data_lisenceplate/38a450b9-9cd0-43b1-b7a2-f61252948d80.jpg_93A 38855.png_388.55.png	388.55
-train_data_lisenceplate/005b1395-9eea-4e03-8384-e191a9df570e.jpg_37K 12067.png_120.67.png	120.67
-train_data_lisenceplate/005b1395-9eea-4e03-8384-e191a9df570e.jpg_37K 12067.png_37K.png	37K
-train_data_lisenceplate/0063a19d-eb50-40ff-a9a7-7f18754599a4.jpg_51F 36896.png_51F-368.96.png	51F-368.96
-train_data_lisenceplate/0128ae96-25d6-483e-9d9d-6a9dbbcca81b.jpg_85A 11262.png_65A-112.62.png	65A-112.62
-train_data_lisenceplate/01ed5a55-b545-484b-8f29-c2caeb2e7c33.jpg_22A 17572.png_175.72.png	175.72
-train_data_lisenceplate/01ed5a55-b545-484b-8f29-c2caeb2e7c33.jpg_22A 17572.png_22A.png	22A
-train_data_lisenceplate/027e18fe-897b-42c6-bedb-c46df9663e2d.jpg_37K 11323.png_37K.png	37K
-train_data_lisenceplate/0288d656-c9bd-4406-9d7d-70cc90cc8875.jpg_95T 6768.png_6768.png	6768
-train_data_lisenceplate/0288d656-c9bd-4406-9d7d-70cc90cc8875.jpg_95T 6768.png_95T.png	95T
-train_data_lisenceplate/04c3da08-9deb-4bd9-b6c0-2fb6fcaf806e.jpg_20A 63069.png_20A.png	20A
-train_data_lisenceplate/0684d10e-6793-434c-a2cb-f2a04ad2db8b.jpg_51H 49330.png_493.30.png	493.30
-train_data_lisenceplate/0684d10e-6793-434c-a2cb-f2a04ad2db8b.jpg_51H 49330.png_51H.png	51H
-train_data_lisenceplate/07ba7d8e-1249-4ed5-bd3d-0e5d441abc72.jpg_19A 17894.png_19A.png	19A
-train_data_lisenceplate/087297b7-03d7-412c-a788-ad0cd4d3258a.jpg_41296NN63.png_NN-63.png	NN-63
-train_data_lisenceplate/087488ce-28a9-4fba-afb8-c78f2747eda3.jpg_30E 00831.png_30E.png	30E
-train_data_lisenceplate/094f5752-6b20-46b5-8fd5-de0a29298567.jpg_64A 11869.png_118.69.png	118.69
-train_data_lisenceplate/0e514b6c-3551-4a9f-83c8-e3f763c78f06.jpg_14A 24646.png_14A.png	14A
-train_data_lisenceplate/0e514b6c-3551-4a9f-83c8-e3f763c78f06.jpg_14A 24646.png_246.46.png	246.46
-train_data_lisenceplate/1.1.PNG_2222.png	2222
-train_data_lisenceplate/1.1.PNG_61-T3.png	61-T3
-train_data_lisenceplate/1.jpg_2222.png	2222
-train_data_lisenceplate/92.jpg_VIE.png	VIE
-train_data_lisenceplate/969508e0-5c70-4986-a500-89e0c93d26f9.jpg_30E 00831.png_30E-008.31.png	30E-008.31
-train_data_lisenceplate/96f61a6e-dc21-409b-a937-968c660b5e66.jpg_30G 44851.png_448.51.png	448.51
-train_data_lisenceplate/97680c15-f4fd-4d62-b379-300da738ca84.jpg_30H 47253.png_30H.png	30H
-train_data_lisenceplate/978781eb-b3db-41d1-bf13-f7384fb23ca5.jpg_37A 53371.png_37A.png	37A
-train_data_lisenceplate/978781eb-b3db-41d1-bf13-f7384fb23ca5.jpg_37A 53371.png_533.71.png	533.71
-train_data_lisenceplate/98116e83-3bf6-47d9-ba5c-ad14f365cdbc.jpg_14A 73192.png_14A.png	14A
-train_data_lisenceplate/98116e83-3bf6-47d9-ba5c-ad14f365cdbc.jpg_14A 73192.png_731.92.png	731.92
-train_data_lisenceplate/9xemay1278.jpg_79-Z1.png	79-Z1
-train_data_lisenceplate/9xemay1359.jpg_54-N9.png	54-N9
-train_data_lisenceplate/adeb5e98-69b8-4453-80fb-0a7c8e5e7796.jpg_89C 18318.png_89C-183-18.png	89C-183-18
-train_data_lisenceplate/Arjtu24ze1XR8BtGFpNuH.jpg_36A 85743.png_36A.png	36A
-train_data_lisenceplate/Arjtu24ze1XR8BtGFpNuH.jpg_36A 85743.png_857.43.png	857.43
-train_data_lisenceplate/b3ba2e9a-74cd-4d1a-85c2-a45d6b9d36ba.jpg_92C 21321.png_213.21.png	213.21
-train_data_lisenceplate/b9e7db4d-b07a-406f-ad9d-9315ce461e1c.jpg_93A 38855.png_388.55.png	388.55
-train_data_lisenceplate/b9e7db4d-b07a-406f-ad9d-9315ce461e1c.jpg_93A 38855.png_93A.png	93A
+train_data_lisenceplate/328664442_887231482615003_7240106205277792255_n.jpg_None.png_YX69 KYN.png	YX69 KYN
+train_data_lisenceplate/328674241_5224051314364984_1769952838336278149_n.jpg_None.png_YX69 KYN.png	YX69 KYN
